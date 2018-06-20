@@ -9,3 +9,5 @@ add_executable(IntersectionTwoLinkedLists ListNode/160/IntersectionTwoLinkedList
 add_executable(IntersectionTwoLinkedLists2 ListNode/160/IntersectionTwoLinkedLists2.cpp)
 add_executable(PartitionList 86/PartitionList.cpp)
 
+
+add_executable(PartitionList2 ListNode/86/PartitionList2.cpp)
