@@ -11,3 +11,5 @@ add_executable(IntersectionTwoLinkedLists2 ListNode/160/IntersectionTwoLinkedLis
 add_executable(PartitionList2 ListNode/86/PartitionList2.cpp)
 add_executable(PartitionList ListNode/86/PartitionList.cpp)
 add_executable(CopyListwithRandomPointer ListNode/138/CopyListwithRandomPointer.cpp)
+
+add_executable(MergeTwoSortedLists ListNode/21/MergeTwoSortedLists.cpp)

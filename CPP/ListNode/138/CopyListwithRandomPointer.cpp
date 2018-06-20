@@ -16,9 +16,9 @@ struct RandomListNode {
 class Solution {
 public:
     RandomListNode *copyRandomList(RandomListNode *head) {
-        //地址到节点位置的map
+        //原链表, 地址到节点位置的map
         std::map<RandomListNode *, int> nodeMap;
-        //使用vector根据存储节点位置访问地址
+        //新链表使用vector根据存储节点位置访问地址, 与上面用map映射不同
         std::vector<RandomListNode *> nodeVec;
         RandomListNode *ptr = head;
         int i = 0;
@@ -29,6 +29,7 @@ public:
             i++;
         }
 
+        //新链表关系最后 push一个 0
         nodeVec.push_back(0);
         ptr = head;
         i = 0;
