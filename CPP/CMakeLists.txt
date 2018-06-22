@@ -13,3 +13,6 @@ add_executable(PartitionList ListNode/86/PartitionList.cpp)
 add_executable(CopyListwithRandomPointer ListNode/138/CopyListwithRandomPointer.cpp)
 
 add_executable(MergeTwoSortedLists ListNode/21/MergeTwoSortedLists.cpp)
+add_executable(MergeKSoretedLists ListNode/23/MergeKSoretedLists.cpp)
+add_executable(MergeKSoretedLists2 ListNode/23/MergeKSoretedLists2.cpp)
+add_executable(MergeKSortedLists3 ListNode/23/MergeKSortedLists3.cpp)
