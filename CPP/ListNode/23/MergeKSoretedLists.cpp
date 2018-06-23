@@ -19,6 +19,8 @@ bool cmp(ListNode *x, ListNode *y) {
     return x->val < y->val;
 }
 
+
+
 class Solution {
 public:
     ListNode *mergeKLists(std::vector<ListNode *> &lists) {
@@ -45,5 +47,36 @@ public:
 };
 
 int main() {
+    ListNode a(1);
+    ListNode b(4);
+    ListNode c(6);
+    ListNode d(0);
+    ListNode e(5);
+    ListNode f(7);
+    ListNode g(2);
+    ListNode h(3);
+
+    a.next = &b;
+    b.next = &c;
+
+    d.next = &e;
+    e.next = &f;
+
+    g.next = &h;
+
+    vector<ListNode *> lists;
+    lists.push_back(&a);
+    lists.push_back(&d);
+    lists.push_back(&g);
+
+    Solution sol;
+
+    ListNode *head = sol.mergeKLists(lists);
+
+    while (head) {
+        cout << head->val << " ";
+        head = head->next;
+    }
+    cout << endl;
     return 0;
 }
