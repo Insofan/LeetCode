@@ -20,3 +20,4 @@ add_executable(ImplementStackusingQueues Stack&Queue/225/ImplementStackusingQueu
 add_executable(ImplementQueueusingStacks Stack&Queue/232/ImplementQueueusingStacks.cpp)
 add_executable(MinStack Stack&Queue/155/MinStack.cpp)
 add_executable(poj1363 Stack&Queue/poj1363/poj1363.cpp)
+add_executable(BasicCalculator Stack&Queue/224/BasicCalculator.cpp)
