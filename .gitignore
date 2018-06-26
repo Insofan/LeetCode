@@ -6,6 +6,7 @@
 *.lo
 *.o
 *.obj
+./CPP/.idea
 
 # Precompiled Headers
 *.gch
@@ -161,3 +162,5 @@ Temporary Items
 
 
 # End of https://www.gitignore.io/api/c++,clion,macos
+/CPP/CMakeLists.txt
+!/CPP/CMakeLists.txt
