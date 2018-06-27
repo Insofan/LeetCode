@@ -22,3 +22,5 @@ add_executable(MinStack Stack&Queue/155/MinStack.cpp)
 add_executable(poj1363 Stack&Queue/poj1363/poj1363.cpp)
 add_executable(BasicCalculator Stack&Queue/224/BasicCalculator.cpp)
 add_executable(KthLargestElementInAnArray Stack&Queue/215/KthLargestElementInAnArray.cpp)
+
+add_executable(FindMedianfromDataStream Stack&Queue/295/FindMedianfromDataStream.cpp)
