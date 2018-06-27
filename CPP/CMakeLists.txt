@@ -24,3 +24,4 @@ add_executable(BasicCalculator Stack&Queue/224/BasicCalculator.cpp)
 add_executable(KthLargestElementInAnArray Stack&Queue/215/KthLargestElementInAnArray.cpp)
 
 add_executable(FindMedianfromDataStream Stack&Queue/295/FindMedianfromDataStream.cpp)
+add_executable(LinkedListCycle2 ListNode/142/LinkedListCycle2.cpp)

@@ -11,6 +11,40 @@ struct ListNode {
     ListNode(int x) : val(x), next(NULL) {}
 };
 
+class Solution {
+public:
+    ListNode *detectCycle(ListNode *head) {
+        ListNode *slow = head;
+        ListNode *fast = head;
+        ListNode *meet = NULL;
+        while (fast) {
+            slow = slow->next;
+            fast = fast->next;
+            if (!fast) {
+                return NULL;
+            }
+            fast = fast->next;
+            if (fast == slow) {
+                meet = fast;
+                break;
+            }
+        }
+
+        if (meet == NULL) {
+            return NULL;
+        }
+
+        while (head && meet) {
+            if (meet == head) {
+                return head;
+            }
+
+            meet = meet->next;
+            head = head->next;
+        }
+        return NULL;
+    }
+};
 
 int main() {
 
