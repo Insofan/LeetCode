@@ -64,8 +64,8 @@ int main() {
     a6.next = &a7;
     a7.next = &a3;
 
-//    Solution solution;
-//    ListNode *head = solution.detectCycle(&a1);
-//    std::cout << head->val << std::endl;
+    Solution solution;
+    ListNode *head = solution.detectCycle(&a1);
+    std::cout << head->val << std::endl;
     return 0;
 }
