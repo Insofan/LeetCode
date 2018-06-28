@@ -27,3 +27,4 @@ add_executable(FindMedianfromDataStream Stack&Queue/295/FindMedianfromDataStream
 add_executable(LinkedListCycle2 ListNode/142/LinkedListCycle2.cpp)
 add_executable( AssignCookies "Greedy/455/ AssignCookies.cpp")
 add_executable(WiggleSubsequence Greedy/376/WiggleSubsequence.cpp)
+add_executable(RemoveKDigits Greedy/402/RemoveKDigits.cpp)
