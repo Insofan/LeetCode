@@ -13,7 +13,7 @@ public:
         vector<vector<int>> result;
         vector<int> item;
         result.push_back(item);
-        generate(0, item, nums, result);
+        generate(0,nums,item, result);
         return result;
     }
 
@@ -33,6 +33,21 @@ private:
 };
 
 int main() {
+    vector<int> nums;
+    nums.push_back(1);
+    nums.push_back(2);
+    nums.push_back(3);
+
+    vector<vector<int>>res;
+    Solution sol;
+     res =  sol.subsets(nums);
+
+    for (int i = 0; i < res.size(); ++i) {
+        for (int j = 0; j < res[i].size(); ++j) {
+            cout << res[i][j] << " ";
+        }
+        cout << endl;
+    }
 
     return 0;
 }
