@@ -34,3 +34,4 @@ add_executable(MinimumNumberofArrowstoBurstBalloons Greedy/452/MinimumNumberofAr
 add_executable(poj2431 Greedy/poj2431/poj2431.cpp)
 add_executable(Subsets Recursion&Backtrack/78/Subsets.cpp)
 add_executable(Subsets1 Recursion&Backtrack/78/Subsets1.cpp)
+add_executable(SubsetsRepeat Recursion&Backtrack/90/SubsetsRepeat.cpp)
