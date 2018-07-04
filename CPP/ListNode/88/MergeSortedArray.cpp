@@ -9,29 +9,48 @@
 //3
 //[1,3,3,5,0,6]
 //excpeted: [1,2,2,3,5,6]
-#include <stdio.h>
+#include <iostream>
+#include <vector>
+
+using namespace std;
 
 class Solution {
 public:
-    void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
+    void merge(vector<int> &nums1, int m, vector<int> &nums2, int n) {
         if (nums2.size() == 0) {
             return;
         }
-        stack<int> tempStack;
-        int j = m -1;
+        int j = m - 1;
         int k = n - 1;
         int len = m + n;
-        for (int i = len-1; i >= 0; i--) {
+        for (int i = len - 1; i >= 0; i--) {
             if (nums1[j] >= nums2[k]) {
                 nums1[i] = nums1[j--];
-            }else{
+            } else {
                 nums1[i] = nums2[k--];
             }
             i--;
         }
     }
 };
+
 int main() {
+    vector<int> nums1;
+    vector<int> nums2;
+    nums1.push_back(1);
+    nums1.push_back(2);
+    nums1.push_back(3);
+    nums1.push_back(0);
+    nums1.push_back(0);
+    nums1.push_back(0);
+
+    nums2.push_back(2);
+    nums2.push_back(5);
+    nums2.push_back(6);
+
+    Solution sol;
+    sol.merge(nums1, )
+
 
     return 0;
 }
