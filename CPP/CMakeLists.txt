@@ -40,3 +40,4 @@ add_executable(CombinationSumII2 Recursion&Backtrack/40/CombinationSumII2.cpp)
 
 add_executable(GenerateParentheses Recursion&Backtrack/22/GenerateParentheses.cpp)
 add_executable(MergeSortedArray ListNode/88/MergeSortedArray.cpp)
+add_executable(GenerateAllKind Recursion&Backtrack/22/GenerateAllKind.cpp)
