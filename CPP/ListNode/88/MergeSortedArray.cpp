@@ -16,23 +16,33 @@ using namespace std;
 
 class Solution {
 public:
-    void merge(vector<int> &nums1, int m, vector<int> &nums2, int n) {
-        if (nums2.size() == 0) {
-            return;
-        }
-        int j = m - 1;
-        int k = n - 1;
-        int len = m + n;
-        for (int i = len - 1; i >= 0; i--) {
-            if (nums1[j] >= nums2[k]) {
-                nums1[i] = nums1[j--];
+    void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
+        int len1 = m - 1;
+        int len2 = n - 1;
+        int length = m + n - 1;
+
+        while (len1 >= 0 && len2 >= 0) {
+            if (nums1[len1] < nums2[len2]) {
+                nums1[length--] = nums2[len2--];
             } else {
-                nums1[i] = nums2[k--];
+                nums1[length--] = nums1[len1--];
             }
-            i--;
+        }
+
+        while (len2 >= 0) {
+            nums1[length--] = nums2[len2--];
         }
     }
 };
+
+
+void out(vector<int> &vec) {
+
+    for (vector<int>::const_iterator it = vec.begin(); it != vec.end(); it++) {
+        cout << (*it) << " ";
+    }
+    cout << endl;
+}
 
 int main() {
     vector<int> nums1;
@@ -49,7 +59,8 @@ int main() {
     nums2.push_back(6);
 
     Solution sol;
-    sol.merge(nums1, )
+    sol.merge(nums1, 3, nums2, 3);
+    out(nums1);
 
 
     return 0;
