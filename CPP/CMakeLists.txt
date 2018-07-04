@@ -37,3 +37,6 @@ add_executable(Subsets1 Recursion&Backtrack/78/Subsets1.cpp)
 add_executable(SubsetsRepeat Recursion&Backtrack/90/SubsetsRepeat.cpp)
 add_executable(CombinationSumII Recursion&Backtrack/40/CombinationSumII.cpp)
 add_executable(CombinationSumII2 Recursion&Backtrack/40/CombinationSumII2.cpp)
+
+add_executable(GenerateParentheses Recursion&Backtrack/22/GenerateParentheses.cpp)
+add_executable(MergeSortedArray ListNode/88/MergeSortedArray.cpp)
