@@ -1,19 +1,8 @@
 //
-// Created by Insomnia on 2018/6/13.
+// Created by Insomnia on 2018/7/5.
 //
-/**
- * leetcode 206 链表逆序
- * https://leetcode.com/problems/reverse-linked-list/description/
- *
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode(int x) : val(x), next(NULL) {}
- * };
- *
- * 构造函数 ListNode(int x) : val(x), next(NULL) {}
- */
+
+
 
 #include <iostream>
 
@@ -30,14 +19,15 @@ struct ListNode {
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
-        ListNode *newHead = NULL;
-        while (head){
+        ListNode tempNode(0);
+
+        while (head) {
             ListNode *next = head->next;
-            head->next = newHead;
-            newHead = head;
+            head->next = tempNode.next;
+            tempNode.next = head;
             head = next;
         }
-        return newHead;
+        return tempNode.next;
     }
 };
 
@@ -68,4 +58,3 @@ int main(int argc, char *argv[]) {
 
     return 0;
 }
-
