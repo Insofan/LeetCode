@@ -30,14 +30,20 @@ func TestReverseList(t *testing.T) {
 			para{[]int{1, 2, 3, 4, 5}},
 			ans{[]int{5, 4, 3, 2, 1}},
 		},
+		question{
+			para{[]int{5, 6, 7, 8, 9}},
+			ans{[]int{9, 8, 7, 6, 5}},
+		},
 
 		// 如需多个测试，可以复制上方元素。
 	}
 
 	for _, q := range qs {
-		_, p := q.ans, q.para
+		a, p := q.ans, q.para
 		fmt.Println("输出:", p.one)
-		fmt.Println("输出:", l2s(ReverseList(s2l(p.one))))
+		ans := l2s(ReverseList(s2l(p.one)))
+		fmt.Println("预期:",a.one)
+		fmt.Println("输出:", ans)
 	}
 }
 
