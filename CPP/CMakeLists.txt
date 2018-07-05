@@ -45,3 +45,4 @@ add_executable(N-Queens Recursion&Backtrack/51/N-Queens.cpp)
 add_executable(PutDownTheQueen Recursion&Backtrack/51/PutDownTheQueen.cpp)
 
 add_executable(ReverseListNodeII ListNode/206/ReverseListNodeII.cpp)
+add_executable(CountofSmallerNumbersAfterSelf Recursion&Backtrack/315/CountofSmallerNumbersAfterSelf.cpp)
