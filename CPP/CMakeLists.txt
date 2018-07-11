@@ -50,3 +50,5 @@ add_executable(CountofSmallerNumbersAfterSelf Recursion&Backtrack/315/CountofSma
 add_executable(PathSumII TreeNode/113/PathSumII.cpp)
 add_executable(LowestCommonAncestorOfABinaryTree TreeNode/236/LowestCommonAncestorOfABinaryTree.cpp)
 
+
+add_executable(FlattenBinaryTreetoLinkedListI TreeNode/114/FlattenBinaryTreetoLinkedListI.cpp)
