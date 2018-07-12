@@ -22,8 +22,8 @@ public:
         vector<TreeNode *> nodeVec;
         preOrder(root, nodeVec);
         for (int i = 1; i < nodeVec.size(); ++i) {
-            root->left= NULL;
-            root->right = nodeVec[i];
+            nodeVec[i-1]->left = NULL;
+            nodeVec[i-1]->right= nodeVec[i];
         }
 
     }
