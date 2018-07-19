@@ -54,3 +54,5 @@ add_executable(LowestCommonAncestorOfABinaryTree TreeNode/236/LowestCommonAncest
 add_executable(FlattenBinaryTreetoLinkedListI TreeNode/114/FlattenBinaryTreetoLinkedListI.cpp)
 add_executable(FlattenBinaryTreetoLinkedListII TreeNode/114/FlattenBinaryTreetoLinkedListII.cpp)
 add_executable(BinaryTreeRightSideView TreeNode/199/BinaryTreeRightSideView.cpp)
+add_executable(CourseSchedule Graph/207/CourseSchedule.cpp)
+add_executable(CourseScheduleII Graph/207/CourseScheduleII.cpp)
