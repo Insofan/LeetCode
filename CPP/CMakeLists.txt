@@ -56,3 +56,5 @@ add_executable(FlattenBinaryTreetoLinkedListII TreeNode/114/FlattenBinaryTreetoL
 add_executable(BinaryTreeRightSideView TreeNode/199/BinaryTreeRightSideView.cpp)
 add_executable(CourseSchedule Graph/207/CourseSchedule.cpp)
 add_executable(CourseScheduleII Graph/207/CourseScheduleII.cpp)
+add_executable(SearchInsertPosition BinarySearch&TreeSearch/35/SearchInsertPosition.cpp)
+add_executable(SearchForARange BinarySearch&TreeSearch/34/SearchForARange.cpp)
