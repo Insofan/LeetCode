@@ -43,6 +43,7 @@ public:
 
         vector<int> count;
 
+        //算的逆序数， 注意倒序插入
         for (int i = nums.size() - 1; i >= 0; i--) {
             nodeVec.push_back(new BSTNode(nums[i]));
         }
