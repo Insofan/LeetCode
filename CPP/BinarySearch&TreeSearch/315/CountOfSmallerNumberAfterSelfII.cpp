@@ -15,12 +15,29 @@ struct BSTNode {
 
     BSTNode(int x) : val(x), left(NULL), right(NULL), count(0) {}
 };
-
+void BST_insert(BSTNode *node, BSTNode *insertNode, int &countSmall) {
+    if (insertNode->val <= node->val) {
+        node->count++;
+        if (node->left) {
+            BST_insert(node->left, insertNode, countSmall);
+        } else {
+            node->left = insertNode;
+        }
+    } else {
+        countSmall += node->count + 1;
+        if (node->right) {
+            BST_insert(node->right, insertNode, countSmall);
+        } else {
+            node->right = insertNode;
+        }
+    }
+}
 
 
 class Solution {
 public:
     vector<int> countSmaller(vector<int> &nums) {
+
         vector<int> result;//最终逆序数组
         vector<BSTNode *> nodeVec;
 
@@ -32,7 +49,7 @@ public:
 
         count.push_back(0);
 
-        for (int j = 0; j < nodeVec.size(); ++j) {
+        for (int j = 1; j < nodeVec.size(); j++) {
             int countSmall = 0;
             BST_insert(nodeVec[0], nodeVec[j], countSmall);
             count.push_back(countSmall);
@@ -46,24 +63,7 @@ public:
         return result;
     }
 
-private:
-    void BST_insert(BSTNode *node, BSTNode *insertNode, int &countSmall) {
-        if (insertNode->val <= node->val) {
-            node->count++;
-            if (node->left) {
-                BST_insert(node->left, insertNode, countSmall);
-            } else {
-                node->left = insertNode;
-            }
-        } else {
-            countSmall += node->count + 1;
-            if (node->right) {
-                BST_insert(node->right, insertNode, countSmall);
-            } else {
-                node->right = insertNode;
-            }
-        }
-    }
+
 };
 
 int main() {
@@ -76,9 +76,9 @@ int main() {
     Solution sol;
     vector<int> result = sol.countSmaller(nums);
 
-//    for (int j = 0; j < result.size(); j++) {
-//       cout << result[j] << " ";
-//    }
-//    cout << endl;
+    for (int j = 0; j < result.size(); j++) {
+      cout << result[j] << " ";
+    }
+    cout << endl;
     return 0;
 }
