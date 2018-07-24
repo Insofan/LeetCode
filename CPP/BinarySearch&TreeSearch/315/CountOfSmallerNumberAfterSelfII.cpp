@@ -76,9 +76,9 @@ int main() {
     Solution sol;
     vector<int> result = sol.countSmaller(nums);
 
-    for (int j = 0; j < result.size(); j++) {
-       cout << result[j] << " ";
-    }
-    cout << endl;
+//    for (int j = 0; j < result.size(); j++) {
+//       cout << result[j] << " ";
+//    }
+//    cout << endl;
     return 0;
 }
