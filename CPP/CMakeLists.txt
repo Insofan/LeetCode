@@ -60,3 +60,4 @@ add_executable(SearchInsertPosition BinarySearch&TreeSearch/35/SearchInsertPosit
 add_executable(SearchForARange BinarySearch&TreeSearch/34/SearchForARange.cpp)
 add_executable(Search in Rotated Sorted Array "BinarySearch&TreeSearch/33/SearchinRotatedSortedArray.cpp")
 add_executable(SearchinRotatedSortedArray BinarySearch&TreeSearch/33/SearchinRotatedSortedArray.cpp)
+add_executable(SerializeAndDeserializeBST BinarySearch&TreeSearch/449/SerializeAndDeserializeBST.cpp)
