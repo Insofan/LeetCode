@@ -43,7 +43,7 @@ public:
             }
         }
 
-        if (pos != pattern.length()) {
+        if (pos != pattern.length()) {//str 比pattern 少时
             return false;//有多余的pattern
         }
 
@@ -54,7 +54,8 @@ public:
 int main() {
     string pattern = "abba";
 //    string pattern = "aabb";
-    string str = "apple dog dog apple";
+//    string str = "apple dog dog apple";
+    string str = "apple dog dog";
 
     Solution sol;
     cout << boolalpha << sol.wordPattern(pattern, str) << endl;

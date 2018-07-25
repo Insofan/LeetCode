@@ -64,3 +64,4 @@ add_executable(SerializeAndDeserializeBST BinarySearch&TreeSearch/449/SerializeA
 add_executable(CountOfSmallerNumberAfterSelfII BinarySearch&TreeSearch/315/CountOfSmallerNumberAfterSelfII.cpp)
 add_executable(LongestPalindrome Hash&String/409/LongestPalindrome.cpp)
 add_executable(WordPattern Hash&String/290/WordPattern.cpp)
+add_executable(GroupAnagrams Hash&String/49/GroupAnagrams.cpp)
