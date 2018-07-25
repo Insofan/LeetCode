@@ -20,12 +20,12 @@ public:
 
         for (int i = 0; i < str.length(); ++i) {
             if (str[i] == ' ') {//遇到空格拆分单词
-               if (pos == pattern.length()) {
+               if (pos >= pattern.length()) {
                    return false;//已经没有pattern对应了
                }
 
                if (wordMap.find(word) == wordMap.end()) {//未找到
-                  if (used[pattern[pos]]) {
+                  if (used[pattern[pos]]) {//word 有新的单词, 但是 pattern已经使用过了
                       return false;
                   }
                   wordMap[word] = pattern[pos];
