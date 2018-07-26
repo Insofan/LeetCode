@@ -65,3 +65,4 @@ add_executable(CountOfSmallerNumberAfterSelfII BinarySearch&TreeSearch/315/Count
 add_executable(LongestPalindrome Hash&String/409/LongestPalindrome.cpp)
 add_executable(WordPattern Hash&String/290/WordPattern.cpp)
 add_executable(GroupAnagrams Hash&String/49/GroupAnagrams.cpp)
+add_executable(LongestSubstringWithoutRepeatingCharacters BinarySearch&TreeSearch/3/LongestSubstringWithoutRepeatingCharacters.cpp)
