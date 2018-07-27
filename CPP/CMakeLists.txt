@@ -70,3 +70,8 @@ add_executable(RepeatedDNASequencesI BinarySearch&TreeSearch/187/RepeatedDNASequ
 add_executable(RepeatedDNASequencesII BinarySearch&TreeSearch/187/RepeatedDNASequencesII.cpp)
 add_executable(MinimumWindowSubstring BinarySearch&TreeSearch/76/MinimumWindowSubstring.cpp)
 add_executable(PrepareKnowlege BinarySearch&TreeSearch/76/prepareKnowlege.cpp)
+
+add_executable(NumberOfIslands Search/200/NumberOfIslands.cpp)
+add_executable(prepareDFS Search/200/prepareDFS.cpp)
+add_executable(prepareBFS Search/200/prepareBFS.cpp)
+add_executable(WordLadder Search/127/WordLadder.cpp)
