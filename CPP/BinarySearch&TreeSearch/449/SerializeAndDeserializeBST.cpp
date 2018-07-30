@@ -1,6 +1,7 @@
 //
 // Created by Insomnia on 2018/7/24.
 // 有问题 输出乱码
+// 同297题目
 
 #include <iostream>
 #include <vector>
