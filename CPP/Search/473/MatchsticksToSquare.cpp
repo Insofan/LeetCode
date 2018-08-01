@@ -4,6 +4,7 @@
 
 #include <stdio.h>
 #include <vector>
+#include <iostream>
 
 using namespace std;
 
@@ -56,6 +57,16 @@ private:
 };
 
 int main() {
+    int nums[5] = {1, 1, 2, 2, 2};
 
+    vector<int> vector;
+    for (int i = 0; i < 5; ++i) {
+        vector.push_back(nums[i]);
+    }
+
+    Solution solution;
+    bool  res = solution.makesquare(vector);
+
+    cout <<  boolalpha << res << endl;
     return 0;
 }
