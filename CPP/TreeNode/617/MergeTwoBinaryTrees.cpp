@@ -15,8 +15,61 @@ class Solution {
 public:
     TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2) {
 
+        TreeNode *tempNode = 0;
+        generate(tempNode, t1, t2);
+
+        return tempNode;
+    }
+
+private:
+    void generate(TreeNode *resNode, TreeNode *t1, TreeNode *t2) {
+        if (!t1 && !t2) {
+            return;
+        }
+
+
+        if (t1 && t2) {
+            resNode->val = t1->val + t2->val;
+            TreeNode tempLeft(0);
+            TreeNode tempRight(0);
+            resNode->left = &tempLeft;
+            resNode->right = &tempRight;
+            generate(resNode->left, t1->left, t2->left);
+            generate(resNode->right, t1->right, t2->right);
+        } else if (t1 && !t2) {
+            TreeNode tempLeft(0);
+            TreeNode tempRight(0);
+             resNode->val = t1->val;
+             resNode->left = &tempLeft;
+            resNode->right = &tempRight;
+            generate(resNode->left, t1->left, NULL);
+            generate(resNode->right, t1->right, NULL);
+        } else if (!t1 && t2) {
+            TreeNode tempLeft(0);
+            TreeNode tempRight(0);
+            resNode->val = t2->val;
+            resNode->left = &tempLeft;
+            resNode->right = &tempRight;
+            generate(resNode->left, NULL,t2->left);
+            generate(resNode->right, NULL,t2->right);
+        }
+
     }
 };
+
+void preorderBinaryTree(int layer, TreeNode *node) {
+    if (!node) {
+        return;
+    }
+
+    for (int i = 0; i < layer; ++i) {
+       cout << "#";
+    }
+    cout << node->val;
+    cout << endl;
+    preorderBinaryTree(layer+1, node->left);
+    preorderBinaryTree(layer+1, node->right);
+}
 int main () {
     TreeNode a1(1);
     TreeNode b1(3);
@@ -37,6 +90,10 @@ int main () {
     b2.right = &c2;
     a2.right = &d2;
     d2.right = &e2;
+
+            Solution solution;
+            TreeNode *resNode = solution.mergeTrees(&a1, &a2);
+            preorderBinaryTree(0, resNode);
 
     return 0;
 }
