@@ -87,3 +87,4 @@ add_executable(LongestIncreasingSubsequence DynamicProgramming/300/LongestIncrea
 add_executable(LongestIncreasingSubsequenceII DynamicProgramming/300/LongestIncreasingSubsequenceII.cpp)
 add_executable(LongestIncreasingSubsequenceIII DynamicProgramming/300/LongestIncreasingSubsequenceIII.cpp)
 add_executable(SingleNumber Hash&String/136/SingleNumber.cpp)
+add_executable(MinimumPathSum DynamicProgramming/64/MinimumPathSum.cpp)
