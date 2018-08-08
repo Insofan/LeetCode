@@ -11,53 +11,8 @@ using namespace std;
       TreeNode(int x) : val(x), left(NULL), right(NULL) {}
   };
 
-class Solution {
-public:
-    TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2) {
 
-        TreeNode *tempNode = 0;
-        generate(tempNode, t1, t2);
-
-        return tempNode;
-    }
-
-private:
-    void generate(TreeNode *resNode, TreeNode *t1, TreeNode *t2) {
-        if (!t1 && !t2) {
-            return;
-        }
-
-
-        if (t1 && t2) {
-            resNode->val = t1->val + t2->val;
-            TreeNode tempLeft(0);
-            TreeNode tempRight(0);
-            resNode->left = &tempLeft;
-            resNode->right = &tempRight;
-            generate(resNode->left, t1->left, t2->left);
-            generate(resNode->right, t1->right, t2->right);
-        } else if (t1 && !t2) {
-            TreeNode tempLeft(0);
-            TreeNode tempRight(0);
-             resNode->val = t1->val;
-             resNode->left = &tempLeft;
-            resNode->right = &tempRight;
-            generate(resNode->left, t1->left, NULL);
-            generate(resNode->right, t1->right, NULL);
-        } else if (!t1 && t2) {
-            TreeNode tempLeft(0);
-            TreeNode tempRight(0);
-            resNode->val = t2->val;
-            resNode->left = &tempLeft;
-            resNode->right = &tempRight;
-            generate(resNode->left, NULL,t2->left);
-            generate(resNode->right, NULL,t2->right);
-        }
-
-    }
-};
-
-void preorderBinaryTree(int layer, TreeNode *node) {
+  void preorderBinaryTree(int layer, TreeNode *node) {
     if (!node) {
         return;
     }
@@ -70,6 +25,30 @@ void preorderBinaryTree(int layer, TreeNode *node) {
     preorderBinaryTree(layer+1, node->left);
     preorderBinaryTree(layer+1, node->right);
 }
+
+class Solution {
+public:
+    TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2) {
+        if (!t1) {
+            return t2;
+        }
+
+        TreeNode *root;
+        if (!t2) {
+            return t1;
+        }
+        t1->val += t2->val;
+
+
+        mergeTrees(t1->left, t2->left);
+        mergeTrees(t1->right, t2->right);
+
+        return root;
+    }
+
+};
+
+
 int main () {
     TreeNode a1(1);
     TreeNode b1(3);
