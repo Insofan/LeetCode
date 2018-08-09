@@ -21,15 +21,13 @@ public:
         int ld, rd;
         if (root == NULL) {
             return 0;
-        }
-        ld = 1 + maxDepth(root->left);
-        rd = 1 + maxDepth(root->right);
-        if (ld > rd) {
-            return ld;
         } else {
-            return rd;
+            ld = maxDepth(root->left);
+            rd = maxDepth(root->right);
+            return 1 + max(ld, rd);
         }
     }
+
 };
 
 int main() {
