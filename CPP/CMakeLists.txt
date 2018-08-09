@@ -92,3 +92,4 @@ add_executable(MinimumPathSum DynamicProgramming/64/MinimumPathSum.cpp)
 add_executable(DungeonGame DynamicProgramming/174/DungeonGame.cpp)
 
 add_executable(MaximumDepthOfBinaryTree     "TreeNode/104/MaximumDepthOfBinaryTree    .cpp")
+add_executable(InvertBinaryTree TreeNode/226/InvertBinaryTree.cpp)
