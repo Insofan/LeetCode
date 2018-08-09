@@ -4,52 +4,47 @@
 #include <iostream>
 
 using namespace std;
-  struct TreeNode {
-      int val;
-      TreeNode *left;
-      TreeNode *right;
-      TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-  };
+
+struct TreeNode {
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+
+    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+};
 
 
-  void preorderBinaryTree(int layer, TreeNode *node) {
+void preorderBinaryTree(int layer, TreeNode *node) {
     if (!node) {
         return;
     }
 
     for (int i = 0; i < layer; ++i) {
-       cout << "#";
+        cout << "--";
     }
-    cout << node->val;
-    cout << endl;
-    preorderBinaryTree(layer+1, node->left);
-    preorderBinaryTree(layer+1, node->right);
+    cout << node->val << endl;
+    preorderBinaryTree(layer + 1, node->left);
+    preorderBinaryTree(layer + 1, node->right);
 }
 
 class Solution {
 public:
-    TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2) {
+    TreeNode *mergeTrees(TreeNode *t1, TreeNode *t2) {
         if (!t1) {
             return t2;
-        }
-
-        TreeNode *root;
-        if (!t2) {
+        } else if (!t2) {
             return t1;
         }
+
         t1->val += t2->val;
-
-
-        mergeTrees(t1->left, t2->left);
-        mergeTrees(t1->right, t2->right);
-
-        return root;
+        t1->left = mergeTrees(t1->left, t2->left);
+        t1->right = mergeTrees(t1->right, t2->right);
+        return t1;
     }
-
 };
 
 
-int main () {
+int main() {
     TreeNode a1(1);
     TreeNode b1(3);
     TreeNode c1(2);
@@ -70,9 +65,9 @@ int main () {
     a2.right = &d2;
     d2.right = &e2;
 
-            Solution solution;
-            TreeNode *resNode = solution.mergeTrees(&a1, &a2);
-            preorderBinaryTree(0, resNode);
+    Solution solution;
+    TreeNode *resNode = solution.mergeTrees(&a1, &a2);
+    preorderBinaryTree(0, resNode);
 
     return 0;
 }
