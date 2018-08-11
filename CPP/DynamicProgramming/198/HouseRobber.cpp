@@ -21,8 +21,8 @@ public:
         }
 
         vector<int> dp(nums.size(), 0);
-        dp[0] = max(nums[0], nums[1]);
-        dp[1] = dp[0];
+        dp[0] = nums[0];
+        dp[1] = max(nums[0], nums[1]);
 
         int n = nums.size();
         for (int i = 2; i < n; i++) {
