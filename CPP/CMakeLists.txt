@@ -102,3 +102,5 @@ add_executable(DuplicateNumberIII Offer/03/DuplicateNumberIII.cpp)
 add_executable(FindSquareVecNumber Offer/04/FindSquareVecNumber.cpp)
 add_executable(ReplaceWtf Offer/05/ReplaceBlank.cpp)
 
+
+add_executable(ReversePrintList Offer/06/ReversePrintList.cpp)
