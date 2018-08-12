@@ -105,3 +105,4 @@ add_executable(ReplaceWtf Offer/05/ReplaceBlank.cpp)
 
 add_executable(ReversePrintList Offer/06/ReversePrintList.cpp)
 add_executable(QueueUsingStack Offer/09/QueueUsingStack.cpp)
+add_executable(PowerOfTwo Math/231/PowerOfTwo.cpp)
