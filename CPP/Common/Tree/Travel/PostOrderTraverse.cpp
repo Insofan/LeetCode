@@ -15,7 +15,6 @@ void postOrderTraverse(TreeNode *root) {
         postOrderTraverse(root->right);
         cout << root->val << " ";
     }
-
 }
 
 void postOrderStackTraverse(TreeNode *root) {
@@ -29,9 +28,9 @@ void postOrderStackTraverse(TreeNode *root) {
             p = p->left;
         } else {
             TreeNode *top = s.top();
+            //是否第一次出现在栈顶
             if (top->right && (last != top->right)) {
                p = top->right;
-
             } else {
                 cout << top->val << " ";
                 last = top;
@@ -39,7 +38,6 @@ void postOrderStackTraverse(TreeNode *root) {
             }
         }
     }
-
 }
 
 
