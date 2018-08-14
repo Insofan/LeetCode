@@ -114,3 +114,4 @@ add_executable(QuickSort "Common/Sort/Quick Sort/QuickSort.cpp")
 
 add_executable(PreOrderTraverse Common/Tree/Travel/PreOrderTraverse.cpp)
 add_executable(InOrderTraverse Common/Tree/Travel/InOrderTraverse.cpp)
+add_executable(PostOrderTraverse Common/Tree/Travel/PostOrderTraverse.cpp)
