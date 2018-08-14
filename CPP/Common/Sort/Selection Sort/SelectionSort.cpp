@@ -33,16 +33,13 @@ class Solution {
 public:
     void selectionSort(vector<int> &vec) {
         for (int i = 0; i < vec.size(); ++i) {
-            int index = i;
+            int key = i;
             for (int j = i + 1; j < vec.size(); j++) {
-                if (vec[j] <= vec[index]) {
-                    index = j;
+                if (vec[j] <= vec[key]) {
+                    key = j;
                 }
             }
-
-            if (index != i) {
-                swap(vec[i], vec[index]);
-            }
+            swap(vec[key], vec[i]);
         }
     }
 };
