@@ -111,3 +111,6 @@ add_executable(JumpFrog Offer/10/JumpFrog.cpp)
 add_executable(InsertSort "Common/Sort/Insert Sort/InsertSort.cpp")
 add_executable(SelectionSort "Common/Sort/Selection Sort/SelectionSort.cpp")
 add_executable(QuickSort "Common/Sort/Quick Sort/QuickSort.cpp")
+
+add_executable(PreOrderTraverse Common/Tree/Travel/PreOrderTraverse.cpp)
+add_executable(InOrderTraverse Common/Tree/Travel/InOrderTraverse.cpp)
