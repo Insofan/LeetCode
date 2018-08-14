@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include "TreeNode.h"
 #include <iostream>
+#include <stack>
 
 using namespace std;
 
@@ -14,7 +15,31 @@ void postOrderTraverse(TreeNode *root) {
         postOrderTraverse(root->right);
         cout << root->val << " ";
     }
-    
+
+}
+
+void postOrderStackTraverse(TreeNode *root) {
+    stack<TreeNode *> s;
+    TreeNode *p = root;
+    TreeNode *last = NULL;
+
+    while (!s.empty() || p != NULL) {
+        if (p) {
+            s.push(p);
+            p = p->left;
+        } else {
+            TreeNode *top = s.top();
+            if (top->right && (last != top->right)) {
+               p = top->right;
+
+            } else {
+                cout << top->val << " ";
+                last = top;
+                s.pop();
+            }
+        }
+    }
+
 }
 
 
@@ -35,5 +60,7 @@ int main() {
     c.right = &g;
 
     postOrderTraverse(&a);
+    cout << endl;
+    postOrderStackTraverse(&a);
     return 0;
 }

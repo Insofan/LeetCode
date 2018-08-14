@@ -4,12 +4,7 @@
 
 #include "TreeNode.h"
 #include <iostream>
-
-//struct TreeNode {
-//    int x;
-//    TreeNode *left;
-//    TreeNode *right;
-//};
+#include <stack>
 
 using namespace std;
 
@@ -17,10 +12,27 @@ void preOrderTraverse(TreeNode *root) {
     if (!root) {
         return;
     }
-    
+
     cout << root->val << " ";
     preOrderTraverse(root->left);
     preOrderTraverse(root->right);
+}
+
+void preOrderStackTraverse(TreeNode *root) {
+    stack<TreeNode *> s;
+    TreeNode *p = root;
+    while (!s.empty() || p != NULL) {
+        while (p) {
+            s.push(p);
+            cout << p->val << " ";
+            p = p->left;
+        }
+
+        p = s.top();
+        s.pop();
+        p = p->right;
+    }
+
 }
 
 int main() {
@@ -38,8 +50,11 @@ int main() {
     b.right = &e;
     c.left = &f;
     c.right = &g;
-    
+
     preOrderTraverse(&a);
+    cout << endl;
+
+    preOrderStackTraverse(&a);
 
     return 0;
 }
