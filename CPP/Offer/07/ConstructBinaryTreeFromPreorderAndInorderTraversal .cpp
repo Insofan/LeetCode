@@ -20,7 +20,7 @@ struct TreeNode {
 class Solution {
 public:
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        return generate(preorder, 0, preorder.size() - 1, inorder, 0, inorder.size() - 1);
+        return generate(preorder, 0, preorder.size() , inorder, 0, inorder.size() );
     }
 
 private:
@@ -35,7 +35,6 @@ private:
         root->left = generate(preorder, pl + 1, pl + 1 + dis, inorder, il, il + dis);
         root->right = generate(preorder, pl + 1 + dis, pr, inorder, il + dis + 1, ir);
         return root;
-
     }
 };
 
