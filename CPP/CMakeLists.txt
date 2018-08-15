@@ -118,3 +118,4 @@ add_executable(PostOrderTraverse Common/Tree/Travel/PostOrderTraverse.cpp)
 add_executable(DepthOfBinaryTree Offer/55/DepthOfBinaryTree.cpp)
 
 add_executable(	 ConstructBinaryTreeFromPreorderAndInorderTraversal  "Offer/07/ConstructBinaryTreeFromPreorderAndInorderTraversal .cpp")
+add_executable(PathNumOffer Offer/34/PathNumOffer.cpp)
