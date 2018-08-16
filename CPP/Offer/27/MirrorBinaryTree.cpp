@@ -9,22 +9,23 @@ struct TreeNode {
     int val;
     TreeNode *left;
     TreeNode *right;
-    TreeNode(int x): val(x), left(NULL), right(NULL){}
+
+    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
 
 using namespace std;
+
 class Solution {
 public:
-    TreeNode* mirrorTree(TreeNode *node) {
+    TreeNode *mirrorTree(TreeNode *node) {
         if (!node) {
-            return  NULL;
+            return NULL;
         }
-            TreeNode *tempNode = node->left;
-            node->left = node->right;
-            node->right = tempNode;
-            node->left = mirrorTree(node->left);
-            node->right= mirrorTree(node->right);
+        TreeNode *tempNode = node->left;
+        node->left = mirrorTree(node->right);
+        node->right = mirrorTree(tempNode);
+        return node;
     }
 
 };
@@ -54,7 +55,7 @@ void postorder(TreeNode *node) {
     cout << endl;
 }
 
-int main () {
+int main() {
     TreeNode a(8);
     TreeNode b(6);
     TreeNode d(5);

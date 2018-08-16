@@ -8,63 +8,49 @@
 using namespace std;
 struct Solution {
 public:
-    bool hasSubtree(TreeNode *node, TreeNode *targetNode) {
-
-        bool res = false;
-        if (node && targetNode) {
-            if (!res) {
-                res = hasSubtree(node->left, targetNode);
-            }
-
-            if (!res) {
-                res = hasSubtree(node->right, targetNode);
-            }
-
-            if (node->val == targetNode->val) {
-               res = generate(node, targetNode);
-            }
+    bool hasSubtree(TreeNode *s, TreeNode *t) {
+        if (!s) {
+            return false;
         }
-        return res;
+
+        if (isSame(s, t)) {
+            return true;
+        }
+
+        return hasSubtree(s->left, t) || hasSubtree(s->right, t);
     }
 
 private:
-    bool generate(TreeNode *first, TreeNode *second) {
-        if (!first) {
-            return false;
+    bool isSame(TreeNode *first, TreeNode *second) {
+        if (!first || !second) {
+            return first == second;
+        } else {
+            return (first->val == second->val) && isSame(first->left, second->left) && isSame(first->right, second->right);
         }
-        if (!second) {
-            return true;
-        }
-        if (first->val != second->val) {
-            return false;
-        }
-
-        return generate(first->left, second->left) && generate(first->right, second->right);
     }
 };
 
 int main() {
-    TreeNode a(8);
-    TreeNode b(6);
-    TreeNode d(5);
-    TreeNode e(7);
-    TreeNode f(10);
-    TreeNode g(9);
-    TreeNode h(11);
+    TreeNode a(3);
+    TreeNode b(4);
+    TreeNode d(1);
+    TreeNode e(2);
+    TreeNode f(5);
 
-    TreeNode a1(6);
-    TreeNode a2(6);
-    TreeNode a3(6);
+    TreeNode a1(4);
+    TreeNode a2(1);
+    TreeNode a3(2);
 
     a.left = &b;
     b.left = &d;
     b.right = &e;
     a.right = &f;
-    f.left = &g;
-    f.right = &h;
 
+
+    a1.left = &a2;
+    a1.right = &a3;
 
     Solution solution;
-    cout << boolalpha << solution.hasSubtree(&a, &a) << endl;
+    cout << boolalpha << solution.hasSubtree(&a, &a1) << endl;
     return 0;
 }

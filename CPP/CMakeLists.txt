@@ -117,7 +117,7 @@ add_executable(InOrderTraverse Common/Tree/Travel/InOrderTraverse.cpp)
 add_executable(PostOrderTraverse Common/Tree/Travel/PostOrderTraverse.cpp)
 add_executable(DepthOfBinaryTree Offer/55/DepthOfBinaryTree.cpp)
 
-add_executable(	 ConstructBinaryTreeFromPreorderAndInorderTraversal  "Offer/07/ConstructBinaryTreeFromPreorderAndInorderTraversal .cpp")
+add_executable(ConstructBinaryTreeFromPreorderAndInorderTraversal  "Offer/07/ConstructBinaryTreeFromPreorderAndInorderTraversal .cpp")
 add_executable(BinaryTreeNextNode Offer/08/BinaryTreeNextNode.cpp)
 add_executable(MirrorBinaryTree Offer/27/MirrorBinaryTree.cpp)
 add_executable(HasSubtree Offer/26/HasSubtree.cpp)
