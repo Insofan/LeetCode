@@ -121,3 +121,4 @@ add_executable(ConstructBinaryTreeFromPreorderAndInorderTraversal  "Offer/07/Con
 add_executable(BinaryTreeNextNode Offer/08/BinaryTreeNextNode.cpp)
 add_executable(MirrorBinaryTree Offer/27/MirrorBinaryTree.cpp)
 add_executable(HasSubtree Offer/26/HasSubtree.cpp)
+add_executable(SymmetricTree Offer/28/SymmetricTree.cpp)
