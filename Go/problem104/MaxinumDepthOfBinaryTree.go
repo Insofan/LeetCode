@@ -14,8 +14,23 @@ import (
 	"../Util"
 )
 
+func maxNum(x, y int) int {
+	if ( x >y) {
+		return x
+	} else {
+		return y
+	}
+}
 func maxDepth(root *util.TreeNode) int {
-
+	var ld int = 0
+	var rd int = 0
+	if (root == nil){
+		return 0
+	} else {
+		ld = maxDepth(root.Left)
+		rd = maxDepth(root.Right)
+		return maxNum(ld, rd) + 1
+	}
 }
 
 func main() {
@@ -29,5 +44,8 @@ func main() {
 	a.Right = &c
 	c.Left = &d
 	c.Right = &e
+
+	var res = maxDepth(&a)
+	fmt.Println(res)
 
 }
