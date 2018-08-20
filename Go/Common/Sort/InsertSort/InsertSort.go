@@ -18,14 +18,14 @@ func randomArr(len, maxNum int) []int {
 }
 
 func insertSort(arr []int) {
-	for i := 0; i < len(arr); i++ {
-		key := arr[i]
-		j := i - 1
-		for j >= 0 && arr[j] > key {
-			arr[j+1] = arr[j]
+	for i := 1; i < len(arr); i++ {
+		insertNum := arr[i]
+		j := i
+		for j > 0 &&  insertNum < arr[j - 1]  {
+			arr[j] = arr[j - 1];
 			j--
 		}
-		arr[j + 1] = key
+		arr[j] = insertNum
 	}
 }
 
