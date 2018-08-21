@@ -18,10 +18,11 @@ func lowestCommonAncestor(root, p, q *util.TreeNode) *util.TreeNode {
 	var pPath []*util.TreeNode
 	var qPath []*util.TreeNode
 	finish := 0
-	generate(root, p, &finish, path, pPath)
+	fmt.Printf("%p \n", &pPath)
+	generate(root, p, &finish, &path, &pPath)
 	finish = 0
 	path = nil
-	generate(root, q, &finish, path, qPath)
+	generate(root, q, &finish, &path, &qPath)
 	pathLen := minNum(len(qPath), len(pPath))
 
 	for i := 0; i < pathLen; i++ {
@@ -41,21 +42,23 @@ func minNum(x, y int) int {
 	}
 }
 
-func generate(root *util.TreeNode, search *util.TreeNode, finish *int, path []*util.TreeNode, res []*util.TreeNode) {
+func generate(root *util.TreeNode, search *util.TreeNode, finish *int, path *[]*util.TreeNode, res *[]*util.TreeNode) {
 	if (root == nil || *finish == 1) {
 		return
 	}
 
-	path = append(path, root)
+	fmt.Printf("%p", res)
+	*path = append(*path, root)
 
 	if (root == search) {
 		*finish = 1
 		res = path
+		fmt.Println(len(*res))
 	}
 
 	generate(root.Left, search, finish, path, res)
 	generate(root.Right, search,finish, path, res)
-	path = path[:len(path)-1]
+	path = path[:len(*path) - 1]
 
 }
 
