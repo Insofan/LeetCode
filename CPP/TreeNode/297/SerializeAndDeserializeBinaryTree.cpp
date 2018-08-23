@@ -6,6 +6,7 @@
 #include <string>
 #include <vector>
 #include <iostream>
+#include <sstream>
 
 using namespace std;
 
@@ -22,48 +23,60 @@ class Codec {
 public:
 
     // Encodes a tree to a single string.
-    string serialize(TreeNode* root) {
-        vector<vector<int>> res;
-        layerTravavse(root, 0, res);
-        res.pop_back();
-//        for (int i = 0; i < res.size(); ++i) {
-//            for (int j = 0; j < res[i].size(); ++j) {
-//               cout << res[i][j] << " ";
-//            }
-//            cout << endl;
-//        }
-        string str;
-        for (int i = 0; i < res.size(); ++i) {
-            for (int j = 0; j < res[i].size(); ++j) {
-                str += res[i][j];
-            }
-        }
-        return str;
+    string serialize(TreeNode *root) {
+        ostringstream res;
+
+        serPreorderTravase(root, res);
+
+        return res.str();
 
     }
 
     // Decodes your encoded data to tree.
-    TreeNode* deserialize(string data) {
+    TreeNode *deserialize(string data) {
+        istringstream inStr(data);
 
+        return desPreorderTravase(inStr);
     }
 
 private:
-    void layerTravavse(TreeNode *node, int level, vector<vector<int>> &res) {
-        if (res.empty() || res.size() - 1 < level) {
-            res.push_back(vector<int> ());
-        }
-
+    void serPreorderTravase(TreeNode *node, ostringstream &res) {
         if (!node) {
-            res[level].push_back(-1);
+            res << "# ";
             return;
         }
+        res << node->val << " ";
+        serPreorderTravase(node->left, res);
+        serPreorderTravase(node->right, res);
 
-        res[level].push_back(node->val);
+    }
 
-        layerTravavse(node->left, level+1, res);
-        layerTravavse(node->right, level+1, res);
+    TreeNode *desPreorderTravase(istringstream &str) {
+        string val;
+        str >> val;
+        if (val == "#") {
+            return nullptr;
+        }
+
+        TreeNode *root = new TreeNode(stoi(val));
+        root->left = desPreorderTravase(str);
+        root->right = desPreorderTravase(str);
+
+        return root;
     }
 };
+
+void preorderTra(TreeNode *node) {
+    if (!node) {
+        return;;
+    }
+
+    cout << node->val << " ";
+
+    preorderTra(node->left);
+    preorderTra(node->right);
+
+}
 
 int main() {
     TreeNode a(1);
@@ -78,7 +91,9 @@ int main() {
     c.right = &e;
 
     Codec codec;
-    codec.serialize(&a);
+//    cout <<codec.serialize(&a) << endl;
+    preorderTra(codec.deserialize(codec.serialize(&a)));
+    cout << endl;
 
     return 0;
 }
