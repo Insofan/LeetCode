@@ -130,3 +130,4 @@ add_executable(SerializeAndDeserializeBinaryTree TreeNode/297/SerializeAndDeseri
 add_executable(TreeNode Common/Tree/Travel/TreeNode.h)
 add_executable(RecycleLinkListOffer Offer/23/RecycleLinkListOffer.cpp)
 add_executable(MergeTwoSortedListOffer Offer/25/MergeTwoSortedListOffer.cpp)
+add_executable(ReverseListOffer Offer/24/ReverseListOffer.cpp)
