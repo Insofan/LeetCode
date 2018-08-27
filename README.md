@@ -32,10 +32,10 @@
 | 145  | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) |          |            |      |    Hard     |
 | 155  |     [Min Stack](https://leetcode.com/problems/min-stack)     |          |            |      |    Easy     |
 | 160  | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) |          |            |      |    Easy     |
-| 175  | [ Combine Two Tables](https://leetcode.com/problems/combine-two-tables) |          |            |      |    Easy     |
-| 182  | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails) |          |            |      |    Easy     |
-| 183  | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order) |          |            |      |    Easy     |
-| 197  | [Rising Temperature](https://leetcode.com/problems/rising-temperature) |          |            |      |    Easy     |
+| 175  | [ Combine Two Tables](https://leetcode.com/problems/combine-two-tables) |          |    SQL     |      |    Easy     |
+| 182  | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails) |          |    SQL     |      |    Easy     |
+| 183  | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order) |          |    SQL     |      |    Easy     |
+| 197  | [Rising Temperature](https://leetcode.com/problems/rising-temperature) |          |    SQL     |      |    Easy     |
 | 198  |  [House Robber](https://leetcode.com/problems/house-robber)  |          |            |      |    Easy     |
 | 200  | [Number of Islands](https://leetcode.com/problems/number-of-islands) |          |            |      |   Medium    |
 |      |                                                              |          |            |      |             |
