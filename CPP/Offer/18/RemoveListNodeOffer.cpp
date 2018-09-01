@@ -21,11 +21,22 @@ void printListNode(ListNode *node) {
 class Solution {
 public:
     ListNode* deleteNode(ListNode **head, ListNode *deleteNode) {
-        if (*head == deleteNode) {
-
-        }
         ListNode *preHead = new ListNode(0);
         preHead->next = *head;
+        ListNode *cur = preHead;
+        while (cur) {
+            if (cur->next && cur->next == deleteNode) {
+                cur->next = cur->next->next;
+            } else {
+                cur = cur->next;
+            }
+        }
+        return preHead->next;
+    }
+
+    ListNode *secDeleteNode(ListNode *head, ListNode*deleteNode) {
+        ListNode *preHead = new ListNode(0);
+        preHead->next = head;
         ListNode *cur = preHead;
         while (cur) {
             if (cur->next && cur->next == deleteNode) {
@@ -54,12 +65,20 @@ int main () {
 
     Solution solution;
     ListNode *head = &a;
+    /*
     ListNode *res = solution.deleteNode(&head, &a);
     printListNode(res);
     res = solution.deleteNode(&res, &c);
     printListNode(res);
     res = solution.deleteNode(&res, &e);
     printListNode(res);
+     */
 
+    ListNode *res = solution.secDeleteNode(&a, &a);
+    printListNode(res);
+    res = solution.secDeleteNode(res, &c);
+    printListNode(res);
+    res = solution.secDeleteNode(res, &e);
+    printListNode(res);
     return 0;
 }
