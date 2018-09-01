@@ -136,3 +136,5 @@ add_executable(BitOneCount Offer/15/BitOneCount.cpp)
 add_executable(PowOffer Offer/16/PowOffer.cpp)
 add_executable(CuttingRangeOffer Offer/14/CuttingRangeOffer.cpp)
 add_executable(HeapSort "Common/Sort/Heap Sort/HeapSort.cpp")
+
+add_executable(RemoveListNodeOffer Offer/18/RemoveListNodeOffer.cpp)
