@@ -39,6 +39,16 @@ public:
         }
         return newHead;
     }
+    
+    ListNode *secReversList(ListNode *head) {
+        if (!head || !(head -> next)) {
+            return head;
+        }
+        ListNode* node = reverseList(head -> next);
+        head -> next -> next = head;
+        head -> next = NULL;
+        return node;
+    }
 };
 
 
@@ -60,7 +70,8 @@ int main(int argc, char *argv[]) {
     head = &a;
 
     Solution solution;
-    head = solution.reverseList(head);
+    //head = solution.reverseList(head);
+    head = solution.secReversList(head);
     while (head) {
         printf("val %d\n", head->val);
         head = head->next;
