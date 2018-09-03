@@ -138,3 +138,5 @@ add_executable(CuttingRangeOffer Offer/14/CuttingRangeOffer.cpp)
 add_executable(HeapSort "Common/Sort/Heap Sort/HeapSort.cpp")
 
 add_executable(RemoveListNodeOffer Offer/18/RemoveListNodeOffer.cpp)
+add_executable(FindMinnumInRotatedArrOffer Offer/11/FindMinnumInRotatedArrOffer.cpp)
+add_executable(FindMinnumIndexInRoatedArrOffer Offer/11/FindMinnumIndexInRoatedArrOffer.cpp)
