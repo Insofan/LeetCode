@@ -144,3 +144,4 @@ add_executable(FindMinimumInRotatedSortedArray BinarySearch&TreeSearch/153/FindM
 add_executable(RemoveDuplicatesFromSortedList ListNode/83/RemoveDuplicatesFromSortedList.cpp)
 add_executable( RemoveLinkedListElements "ListNode/203/ RemoveLinkedListElements.cpp")
 add_executable(MinStackOffer Offer/30/MinStackOffer.cpp)
+add_executable(StackPushPopOffer Offer/31/StackPushPopOffer.cpp)
