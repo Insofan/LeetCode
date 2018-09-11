@@ -24,13 +24,13 @@ public:
         int i = 0;
         while  (ptr) {
             nodeVec.push_back(new RandomListNode(ptr->label));
-            nodeMap[ptr->random] = i;
+            nodeMap[ptr] = i;
             ptr = ptr->next;
             i++;
         }
 
         //新链表关系最后 push一个 0
-        nodeVec.push_back(0);
+        nodeVec.push_back(NULL);
         ptr = head;
         i = 0;
 
