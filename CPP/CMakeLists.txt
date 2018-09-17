@@ -152,3 +152,4 @@ add_executable(ConvertBSTToTwoPointSortedListOffer Offer/36/ConvertBSTToTwoPoint
 add_executable(SerDecBinaryTreeOffer Offer/37/SerDecBinaryTreeOffer.cpp)
 add_executable(PermutationStrOffer Offer/38/PermutationStrOffer.cpp)
 add_executable(PermutationNumOffer Offer/38/PermutationNumOffer.cpp)
+add_executable(TopKElemOffer Offer/40/TopKElemOffer.cpp)
