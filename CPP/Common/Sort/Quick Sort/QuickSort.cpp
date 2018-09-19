@@ -55,11 +55,50 @@ private:
     }
 };
 
+class Solution2 {
+public:
+    void quickSortWhile(vector<int> &vec, int left, int right) {
+        int i = left;
+        int j = right;
+        int pivot = vec[left];
+
+        while (i < j) {
+            while (i < j && vec[j] >= pivot) {
+                j--;
+            }
+
+            while (i < j && vec[i] <= pivot) {
+                i++;
+            }
+
+            if (i < j) {
+                swap(vec[i], vec[j]);
+            }
+        }
+
+        if (i != left) {
+            quickSortWhile(vec, left, i - 1);
+        }
+        if (j != right) {
+            quickSortWhile(vec, j+1, right);
+        }
+    }
+
+private:
+
+};
+
 int main() {
+//    vector<int> vec = randomVec(10, 60);
+//    out(vec);
+//    Solution solution;
+//    solution.quickSort(vec, 0, vec.size() - 1);
+//    out(vec);
+    
     vector<int> vec = randomVec(10, 60);
     out(vec);
-    Solution solution;
-    solution.quickSort(vec, 0, vec.size() - 1);
+    Solution2 solution2;
+    solution2.quickSortWhile(vec, 0, vec.size() - 1);
     out(vec);
 
     return 0;
