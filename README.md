@@ -49,4 +49,5 @@
 | 215  | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array) |                                                              |            |      |   Medium    |
 | 225  | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) |                                                              |            |      |    Easy     |
 | 226  | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) |                                                              |            |      |    Easy     |
+| 233  | [Number of Digit One](https://leetcode.com/problems/number-of-digit-one) | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/43/NumberOfDigitOneOffer.cpp) |            |      |             |
 
