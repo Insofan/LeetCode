@@ -1,7 +1,7 @@
 # LeetCode
 | #    |                           Question                           |                           Solution                           |  Category  | Note | Difficultly |
 | :--- | :----------------------------------------------------------: | :----------------------------------------------------------: | :--------: | :--: | :---------: |
-| 1    |       [Two Sum](https://leetcode.com/problems/two-sum)       |                                                              |    Hash    |      |    Easy     |
+| 1    |       [Two Sum](https://leetcode.com/problems/two-sum)       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Hash%26String/1/TwoSum.cpp) |    Hash    |      |    Easy     |
 | 2    | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) |                                                              |  ListNode  |      |   Medium    |
 | 3    | [ Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) |                                                              |            |      |   Medium    |
 | 5    | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) |                                                              |            |      |   Medium    |
