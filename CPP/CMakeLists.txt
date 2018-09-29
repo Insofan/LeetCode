@@ -157,3 +157,4 @@ add_executable(FindMedianFromDataStreamOffer Offer/41/FindMedianFromDataStreamOf
 add_executable(MaxSubArraySumOffer Offer/42/MaxSubArraySumOffer.cpp)
 add_executable(NumberOfDigitOneOffer Offer/43/NumberOfDigitOneOffer.cpp)
 add_executable(TwoSum Hash&String/1/TwoSum.cpp)
+add_executable(ReverseInteger Math/7/ReverseInteger.cpp)
