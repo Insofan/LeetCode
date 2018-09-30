@@ -5,23 +5,23 @@
 | 2    | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) |                                                              |  ListNode  |      |   Medium    |
 | 3    | [ Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) |                                                              |            |      |   Medium    |
 | 5    | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) |                                                              |            |      |   Medium    |
-| 7    | [Reverse Integer](https://leetcode.com/problems/reverse-integer) |                                                              |            |      |    Easy     |
+| 7    | [Reverse Integer](https://leetcode.com/problems/reverse-integer) | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Math/7/ReverseInteger.cpp) |            |      |    Easy     |
 | 9    | [Palindrome Number](https://leetcode.com/problems/palindrome-number) |                                                              |            |      |    Easy     |
 | 21   | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/ListNode/21/MergeTwoSortedLists.cpp) |            |      |    Easy     |
 | 35   | [Search Insert Position](https://leetcode.com/problems/search-insert-position) | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/BinarySearch%26TreeSearch/35/SearchInsertPosition.cpp) |            |      |    Easy     |
 | 40   | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii) | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Recursion%26Backtrack/40/CombinationSumII2.cpp) |            | 剪枝 |   Medium    |
 | 50   |      [Pow(x, n)](https://leetcode.com/problems/powx-n)       |                                                              |            |      |             |
 | 51   |      [N-Queens](https://leetcode.com/problems/n-queens)      | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Recursion%26Backtrack/51/N-Queens.cpp) |            |      |    Hard     |
-| 53   | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) |                                                              |            |      |    Easy     |
+| 53   | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/DynamicProgramming/53/MaximumSuC++barray.cpp) |            |      |    Easy     |
 | 70   | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) |                                                              |            |      |    Easy     |
-| 78   |       [Subsets](https://leetcode.com/problems/subsets)       |                                                              |            |      |   Medium    |
-| 83   | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) |                                                              |            |      |    Easy     |
-| 86   | [Partition List](https://leetcode.com/problems/partition-list) |                                                              |            |      |   Medium    |
-| 88   | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) |                                                              |            |      |    Easy     |
+| 78   |       [Subsets](https://leetcode.com/problems/subsets)       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Recursion%26Backtrack/78/Subsets.cpp) |            |      |   Medium    |
+| 83   | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/ListNode/83/RemoveDuplicatesFromSortedList.cpp) |            |      |    Easy     |
+| 86   | [Partition List](https://leetcode.com/problems/partition-list) | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/ListNode/86/PartitionList.cpp) |            |      |   Medium    |
+| 88   | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/ListNode/88/MergeSortedArray.cpp) |            |      |    Easy     |
 | 90   |    [Subsets II](https://leetcode.com/problems/subsets-ii)    |                                                              |            |      |   Medium    |
-| 92   | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) |                                                              |            |      |   Medium    |
+| 92   | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/ListNode/092/ReverseLinkedList2.cpp) |            |      |   Medium    |
 | 94   | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) |                                                              |            |      |   Medium    |
-| 100  |     [Same Tree](https://leetcode.com/problems/same-tree)     |                                                              | Recurrence |      |    Easy     |
+| 100  |     [Same Tree](https://leetcode.com/problems/same-tree)     | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/TreeNode/100/SameTreeII.cpp) | Recurrence |      |    Easy     |
 | 101  | [ Symmetric Tree](https://leetcode.com/problems/symmetric-tree) |                                                              |            |      |    Easy     |
 | 104  | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree) |                                                              |            |      |    Easy     |
 | 105  | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) |                                                              |            |      |   Medium    |
