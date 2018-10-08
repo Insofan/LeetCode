@@ -11,11 +11,11 @@ import (
 	"math"
 )
 
-func MergeSort(vec []int, left, right int) {
+func mergeSort(vec []int, left, right int) {
 	if (left < right) {
 		var mid int = (left + right) / 2
-		MergeSort(vec, left, mid)
-		MergeSort(vec, mid+1, right)
+		mergeSort(vec, left, mid)
+		mergeSort(vec, mid+1, right)
 		partition(vec, left, mid, right)
 	}
 }
