@@ -3,6 +3,7 @@
 // 同 leetcode 268, 同single number
 // Missing Number
 //这个题出的 有问题, 如果按照书上是排序数组, 而且每一个数和自己的index对应 直接for循环用nums[i[ 与 i 比较就行了, 返回i即可,根本不需要书上的各种代码
+//第三问 还没写
 
 #include <iostream>
 #include <vector>
