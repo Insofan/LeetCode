@@ -172,3 +172,4 @@ add_executable(IntersectionOfTwoLinkedListsOffer Offer/52/IntersectionOfTwoLinke
 add_executable(FindFirstAndLastPositionOfElementInSortedArray Offer/53/FindFirstAndLastPositionOfElementInSortedArray.cpp)
 add_executable(MissingNumOffer Offer/53/MissingNumOffer.cpp)
 add_executable(KthSmallestElementInABST Offer/54/KthSmallestElementInABST.cpp)
+add_executable(IsAVLTreeOffer Offer/55/IsAVLTreeOffer.cpp)
