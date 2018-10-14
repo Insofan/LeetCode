@@ -168,3 +168,4 @@ add_executable(LongestSubstringWithoutRepeatingCharactersOffer Offer/48/LongestS
 add_executable(UglyNumberOffer Offer/49/UglyNumberOffer.cpp)
 add_executable(FirstUniqueCharOffer Offer/50/FirstUniqueCharOffer.cpp)
 add_executable(ReversePairsOffer Offer/51/ReversePairsOffer.cpp)
+add_executable(IntersectionOfTwoLinkedListsOffer Offer/52/IntersectionOfTwoLinkedListsOffer.cpp)
