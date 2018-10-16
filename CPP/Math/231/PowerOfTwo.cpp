@@ -9,7 +9,12 @@ using namespace std;
 
 class Solution {
 public:
-    bool isPowerOfTwo(int n) {
+    bool  isPowerOfTwoGood(int n) {
+        
+//        return n > 0 && ((n & (n - 1)) == 0);
+        return n > 0 && !(n & (n - 1));
+    }
+    bool isPowerOfTwoBad(int n) {
         if (n == 0) {
             return false;
         }
@@ -21,15 +26,15 @@ public:
             return false;
         }
 
-        return isPowerOfTwo(n / 2);
+        return isPowerOfTwoBad(n / 2);
     }
 };
 int main() {
     Solution solution;
 
-    cout << boolalpha << solution.isPowerOfTwo(10) << endl;
-    cout << boolalpha << solution.isPowerOfTwo(16) << endl;
-    cout << boolalpha << solution.isPowerOfTwo(24) << endl;
-    cout << boolalpha << solution.isPowerOfTwo(1024) << endl;
+    cout << boolalpha << solution.isPowerOfTwoBad(10) << endl;
+    cout << boolalpha << solution.isPowerOfTwoGood(16) << endl;
+    cout << boolalpha << solution.isPowerOfTwoGood(24) << endl;
+    cout << boolalpha << solution.isPowerOfTwoGood(1024) << endl;
 
 }
