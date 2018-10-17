@@ -66,6 +66,9 @@ public:
             while (i < j && vec[j] >= pivot) {
                 j--;
             }
+            if (i < j) {
+                swap(vec[i], vec[j]);
+            }
 
             while (i < j && vec[i] <= pivot) {
                 i++;
@@ -83,9 +86,6 @@ public:
             quickSortWhile(vec, j+1, right);
         }
     }
-
-private:
-
 };
 
 int main() {
