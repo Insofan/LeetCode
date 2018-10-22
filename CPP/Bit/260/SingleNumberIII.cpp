@@ -22,7 +22,8 @@ public:
         xval ^= xval & (xval - 1);
 
         for (int i = 0; i < vec.size(); ++i) {
-            if (xval & vec[i]) {
+//            cout <<(xval & vec[i]) << endl;
+            if ((xval & vec[i]) > 0) {
                 res[0] ^= vec[i];
             } else {
                 res[1] ^= vec[i];
