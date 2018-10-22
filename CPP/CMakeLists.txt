@@ -164,3 +164,4 @@ add_executable(ReverseStringII Offer/58/ReverseStringII.cpp)
 
 add_executable(SingleNumOfferI Offer/56/SingleNumOfferI.cpp)
 add_executable(SingleNumOfferII Offer/56/SingleNumOfferII.cpp)
+add_executable(SlidingWindowMaximumOffer Offer/59/SlidingWindowMaximumOffer.cpp)
