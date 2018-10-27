@@ -20,7 +20,7 @@ struct Node {
 };
 
 //To create a new node of circular
-Node *newNode(int data) {
+Node* newNode(int data) {
     Node *tmp = new Node;
     tmp->next = tmp;
     tmp->data = data;
