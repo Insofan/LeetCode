@@ -6,6 +6,7 @@
 #include <queue>
 #include <vector>
 
+using namespace std;
 class MedianFinder {
 public:
     MedianFinder() {
@@ -13,52 +14,44 @@ public:
     }
 
     void addNum(int num) {
-
-        if (bigQueue.empty()) {
-            bigQueue.push(num);
-            return;
-        }
-
-        if (bigQueue.size() == smallQueue.size()) {
-            if (num < bigQueue.top()) {
-                bigQueue.push(num);
+        if (rightQ.size() == 0) {
+            rightQ.push(num);
+        } else if (rightQ.size() > leftQ.size()) {
+            if (num < rightQ.top()) {
+                leftQ.push(rightQ.top());
+                rightQ.pop();
+                rightQ.push(num);
             } else {
-                smallQueue.push(num);
+                leftQ.push(num);
             }
-        } else if (bigQueue.size() > smallQueue.size()) {
-            if (num < bigQueue.top()) {
-                smallQueue.push(bigQueue.top());
-                bigQueue.pop();
-                bigQueue.push(num);
+        } else if (leftQ.size() > rightQ.size()) {
+            if (num < leftQ.top()) {
+                rightQ.push(num);
             } else {
-                smallQueue.push(num);
+                rightQ.push(leftQ.top());
+                leftQ.pop();
+                leftQ.push(num);
             }
         } else {
-            if (num < smallQueue.top()) {
-                bigQueue.push(num);
+            if (num < rightQ.top()) {
+                rightQ.push(num);
             } else {
-                bigQueue.push(smallQueue.top());
-                smallQueue.pop();
-                smallQueue.push(num);
+                leftQ.push(num);
             }
         }
     }
 
     double findMedian() {
-        int size = smallQueue.size() + bigQueue.size();
-        if (size  % 2 == 0) {
-            return (smallQueue.top() + bigQueue.top()) / 2.0;
-        } else if (bigQueue.size()> smallQueue.size()) {
-            return bigQueue.top();
-        } else {
-            return smallQueue.top();
+        int len = leftQ.size() + rightQ.size();
+        if (len % 2 == 0) {
+            return (leftQ.top() + rightQ.top()) / 2.0;
         }
+        return leftQ.size() > rightQ.size() ? leftQ.top() : rightQ.top();
     }
 
 private:
-    std::priority_queue<int, std::vector<int>, std::greater<int>> smallQueue;
-    std::priority_queue<int> bigQueue;
-
+    priority_queue<int, vector<int>, greater<int>> leftQ;
+    priority_queue<int, vector<int>> rightQ;
 };
 
 int main() {
