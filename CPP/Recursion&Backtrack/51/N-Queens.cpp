@@ -17,7 +17,7 @@ public:
         /*存某一次位置*/
         vector<string> location;
         /*攻击位置*/
-        vector<vector<int>> mark;
+        vector<vector<int>> mark(n, vector<int>(n, 0));
 
         /*
          * 初始化
@@ -25,11 +25,6 @@ public:
          * location 初始化全部为 '.'
          */
         for (int i = 0; i < n; ++i) {
-            mark.push_back(vector<int>());
-            for (int j = 0; j < n; ++j) {
-                mark[i].push_back(0);
-            }
-
             location.push_back("");
             location[i].append(n, '.');
         }
