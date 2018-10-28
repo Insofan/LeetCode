@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
@@ -12,13 +13,13 @@ struct BSTNode {
     int count;
     BSTNode *left;
     BSTNode *right;
-
-    BSTNode(int x) : val(x), left(NULL), right(NULL), count(0) {}
+    BSTNode(int x): val(x), count(0), left(NULL), right(NULL){}
 };
+
 void BST_insert(BSTNode *node, BSTNode *insertNode, int &countSmall) {
     if (insertNode->val <= node->val) {
         node->count++;
-        if (node->left) {
+        if (node->left){
             BST_insert(node->left, insertNode, countSmall);
         } else {
             node->left = insertNode;
@@ -32,38 +33,30 @@ void BST_insert(BSTNode *node, BSTNode *insertNode, int &countSmall) {
         }
     }
 }
-
-
 class Solution {
 public:
-    vector<int> countSmaller(vector<int> &nums) {
-
-        vector<int> result;//最终逆序数组
+    vector<int> countSmaller(vector<int>& nums) {
+        if (nums.empty()) {
+            return vector<int>();
+        }
+        vector<int> res;
         vector<BSTNode *> nodeVec;
-
-        vector<int> count;
-
-        //算的逆序数， 注意倒序插入
-        for (int i = nums.size() - 1; i >= 0; i--) {
+        //逆序
+        reverse(nums.begin(), nums.end());
+        for (int i = 0; i < nums.size(); i++) {
             nodeVec.push_back(new BSTNode(nums[i]));
         }
+        //最后一个数的结果肯定是0
+        res.push_back(0);
 
-        count.push_back(0);
-
-        for (int j = 1; j < nodeVec.size(); j++) {
+        for (int j = 1; j < nums.size(); j++) {
             int countSmall = 0;
             BST_insert(nodeVec[0], nodeVec[j], countSmall);
-            count.push_back(countSmall);
+            res.push_back(countSmall);
         }
-
-        for (int k = nodeVec.size() - 1; k >= 0; k--) {
-            delete nodeVec[k];
-            result.push_back(count[k]);
-        }
-
-        return result;
+        reverse(res.begin(), res.end());
+        return res;
     }
-
 
 };
 
