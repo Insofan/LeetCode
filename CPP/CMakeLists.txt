@@ -178,3 +178,6 @@ add_executable(NSumOffer Offer/64/NSumOffer.cpp)
 add_executable(ProductOfArrayExceptSelfOffer Offer/66/ProductOfArrayExceptSelfOffer.cpp)
 add_executable(LowestCommonAncterIIOffer Offer/68/LowestCommonAncterIIOffer.cpp)
 add_executable(CrazyJumpFrogOffer Offer/10/CrazyJumpFrogOffer.cpp)
+
+add_executable(StringCharOffer Offer/05/StringCharOffer.cpp)
+add_executable(ReplaceBlankNewCoder Offer/05/ReplaceBlankNewCoder.cpp)
