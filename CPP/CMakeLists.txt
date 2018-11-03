@@ -181,3 +181,4 @@ add_executable(CrazyJumpFrogOffer Offer/10/CrazyJumpFrogOffer.cpp)
 
 add_executable(StringCharOffer Offer/05/StringCharOffer.cpp)
 add_executable(ReplaceBlankNewCoder Offer/05/ReplaceBlankNewCoder.cpp)
+add_executable(UglyNumberIIOffer Offer/49/UglyNumberIIOffer.cpp)
