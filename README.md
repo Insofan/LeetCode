@@ -72,3 +72,29 @@
 | 452  | [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons) | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Greedy/452/MinimumNumberofArrowstoBurstBalloons.cpp) |   Greedy   |      |             |
 | 455  | [Assign Cookies](https://leetcode.com/problems/assign-cookies) | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Greedy/455/%20AssignCookies.cpp) |   Greedy   |      |             |
 
+
+
+# 剑指Offer
+
+| #    |            Question            | Solution | Category | Note |
+| ---- | :----------------------------: | :------: | :------: | :--: |
+| 3    |        数组中重复的数字        |          |          |      |
+| 4    |        二维数组中的查找        |          |          |      |
+| 5    |            替换空格            |          |          |      |
+| 6    |        从尾到头打印链表        |          |          |      |
+| 7    |           重建二叉树           |          |          |      |
+| 8    |       二叉树的下一个节点       |          |          |      |
+| 9    |        用两个栈实现队列        |          |          |      |
+| 10   |          斐波那契数列          |          |          |      |
+| 11   |       旋转数组的最小数字       |          |          |      |
+| 12   |          矩阵中的路径          |          |          |      |
+| 13   |        机器人的运动范围        |          |          |      |
+| 14   |             剪绳子             |          |          |      |
+| 15   |        二进制中1的个数         |          |          |      |
+| 16   |         数值的整数次方         |          |          |      |
+| 17   |       打印从1到最大n位数       |          |          |      |
+| 18   |         删除链表的节点         |          |          |      |
+| 19   |         正则表达式匹配         |          |          |      |
+| 20   |        表示数值的字符串        |          |          |      |
+| 21   | 调整数组顺序使奇数位于偶数前面 |          |          |      |
+
