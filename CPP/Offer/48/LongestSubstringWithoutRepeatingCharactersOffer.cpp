@@ -31,7 +31,7 @@ int main() {
 
     string   a1 = "abcabcbb";
     string   a2 = "bbbbb";
-    string   a3 = "pwwkew";
+    string   a3 = "an++--viaj";
     string   a4 = "abcdefghijklmn";
 
     Solution solution;
