@@ -76,27 +76,27 @@
 
 # 剑指Offer
 
-| #    |            Question            | Solution | Category | Note |
-| ---- | :----------------------------: | :------: | :------: | :--: |
-| 3    |        数组中重复的数字        |          |          |      |
-| 4    |        二维数组中的查找        |          |          |      |
-| 5    |            替换空格            |          |          |      |
-| 6    |        从尾到头打印链表        |          |          |      |
-| 7    |           重建二叉树           |          |          |      |
-| 8    |       二叉树的下一个节点       |          |          |      |
-| 9    |        用两个栈实现队列        |          |          |      |
-| 10   |          斐波那契数列          |          |          |      |
-| 11   |       旋转数组的最小数字       |          |          |      |
-| 12   |          矩阵中的路径          |          |          |      |
-| 13   |        机器人的运动范围        |          |          |      |
-| 14   |             剪绳子             |          |          |      |
-| 15   |        二进制中1的个数         |          |          |      |
-| 16   |         数值的整数次方         |          |          |      |
-| 17   |       打印从1到最大n位数       |          |          |      |
-| 18   |         删除链表的节点         |          |          |      |
-| 19   |         正则表达式匹配         |          |          |      |
-| 20   |        表示数值的字符串        |          |          |      |
-| 21   | 调整数组顺序使奇数位于偶数前面 |          |          |      |
+| #    |            Question            |                           Solution                           | Category | Note |
+| ---- | :----------------------------: | :----------------------------------------------------------: | :------: | :--: |
+| 3    |        数组中重复的数字        | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/03/DuplicateNumberII.cpp) |          |      |
+| 4    |        二维数组中的查找        | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/04/FindSquareVecNumber.cpp) |          | Easy |
+| 5    |            替换空格            | [C++](https://github.com/Insofan/LeetCode/tree/master/CPP/Offer/05) |          | Easy |
+| 6    |        从尾到头打印链表        | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/06/ReversePrintList.cpp) |          | Easy |
+| 7    |           重建二叉树           | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/07/ConstructBinaryTreeFromPreorderAndInorderTraversal%20.cpp) |          |      |
+| 8    |       二叉树的下一个节点       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/08/BinaryTreeNextNode.cpp) |          |      |
+| 9    |        用两个栈实现队列        | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/09/QueueUsingStack.cpp) |          | Easy |
+| 10   |          斐波那契数列          | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/10) |          | Easy |
+| 11   |       旋转数组的最小数字       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/11/FindMinnumInRotatedArrOffer.cpp) |          | Easy |
+| 12   |          矩阵中的路径          | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/12/WordSearchOffer.cpp) |          |      |
+| 13   |        机器人的运动范围        |                                                              |          |      |
+| 14   |             剪绳子             | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/14/CuttingRangeOffer.cpp) |          |      |
+| 15   |        二进制中1的个数         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/15/BitOneCount.cpp) |          | Easy |
+| 16   |         数值的整数次方         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/16/PowOffer.cpp) |          | Easy |
+| 17   |       打印从1到最大n位数       |                                                              |          |      |
+| 18   |         删除链表的节点         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/18/RemoveListNodeOffer.cpp) |          |      |
+| 19   |         正则表达式匹配         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/19/RegularExpressionMatchingOffer.cpp) |          |      |
+| 20   |        表示数值的字符串        |                                                              |          |      |
+| 21   | 调整数组顺序使奇数位于偶数前面 |                                                              |          |      |
 | 22   |      链表中倒数第k个节点       |          |          |      |
 | 23   |       链表中环的入口节点       |          |          |      |
 | 24   |            反转链表            |          |          |      |
@@ -106,5 +106,3 @@
 | 28   |          对称的二叉树          |          |          |      |
 | 29   |         顺时针打印矩阵         |          |          |      |
 | 30   |        包含min函数的栈         |          |          |      |
-| 31   |       栈的压入和弹出序列       |          |          |      |
-
