@@ -98,11 +98,17 @@
 | 20   |        表示数值的字符串        |                                                              |          |      |
 | 21   | 调整数组顺序使奇数位于偶数前面 |                                                              |          |      |
 | 22   |      链表中倒数第k个节点       |                                                              |          |      |
-| 23   |       链表中环的入口节点       |                                                              |          |      |
-| 24   |            反转链表            |                                                              |          |      |
-| 25   |       合并两个排序的链表       |                                                              |          |      |
-| 26   |           树的子结构           |                                                              |          |      |
-| 27   |          二叉树的镜像          |                                                              |          |      |
-| 28   |          对称的二叉树          |                                                              |          |      |
+| 23   |       链表中环的入口节点       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/23/RecycleLinkListOffer.cpp) |          |      |
+| 24   |            反转链表            | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/24/ReverseListOffer.cpp) |          |      |
+| 25   |       合并两个排序的链表       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/25/MergeTwoSortedListOffer.cpp) |          |      |
+| 26   |           树的子结构           | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/26/HasSubtree.cpp) |          |      |
+| 27   |          二叉树的镜像          | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/27/MirrorBinaryTree.cpp) |          |      |
+| 28   |          对称的二叉树          | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/28/SymmetricTree.cpp) |          |      |
 | 29   |         顺时针打印矩阵         |                                                              |          |      |
-| 30   |        包含min函数的栈         |                                                              |          |      |
+| 30   |        包含min函数的栈         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/30/MinStackOffer.cpp) |          |      |
+| 31   |       栈的压入,弹出序列        | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/31/StackPushPopOffer.cpp) |          |      |
+| 32   |       从上到下打印二叉树       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/32/LayerTraverseOffer.cpp) |          |      |
+| 33   |    二叉搜索树的后序遍历序列    | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/33/PostOrderBSTOffer.cpp) |          |      |
+| 34   |    二叉树中和为某一值的路径    | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/34/PathNumOffer.cpp) |          |      |
+| 35   |         复杂链表的复制         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/35/CopyRandomPointListOffer.cpp) |          |      |
+| 36   |      二叉搜索树与双向链表      | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/36/ConvertBSTToTwoPointSortedListOffer.cpp) |          |      |
