@@ -9,18 +9,16 @@ class Solution:
     def duplicateNum(self, arr):
         if len(arr) == 0:
            return False
-        res = 0
         map = dict()
         for val in arr:
             if val not in map:
                 map[val] = 0
             else:
-                res = val
-                return res
+                return val
         return False
 
 
 if __name__ == '__main__':
     sol = Solution()
-    arr = [1, 2, 1, 0]
+    arr = [2,3,1,0,2,5,3]
     print(sol.duplicateNum(arr))
