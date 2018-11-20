@@ -9,6 +9,7 @@
 
 import utils.ListNode.ListNode
 
+
 class Solution:
     def reverseList(self, head):
         """
@@ -16,6 +17,24 @@ class Solution:
         :rtype: ListNode
         """
 
+        # 逆序链表法
+        # tmp = None
+        #
+        # while head:
+        #     next = head.next
+        #     head.next = tmp
+        #     tmp = head
+        #     head = next
+        res = []
+        while head:
+            # res += head.val
+            res.append(head.val)
+            head = head.next
+        res.reverse()
+        for val in res:
+            print(val, end=' ')
+
+        return None
 
 
 if __name__ == '__main__':
@@ -24,4 +43,6 @@ if __name__ == '__main__':
     head = node.generateListNode(arr)
     print("Original List: ")
     node.printListNode(head)
-
+    print()
+    sol = Solution()
+    res = sol.reverseList(head)
