@@ -16,7 +16,6 @@ class Solution:
     @return: Root of a tree
     """
 
-
     def buildTree(self, preorder, inorder):
         return self.__buildHelper(preorder, 0, len(preorder), inorder, 0, len(inorder))
 
@@ -29,10 +28,10 @@ class Solution:
                 break
 
         bt = utils.BinaryTree.BinaryTree
-        # root = utils.BinaryTree.BinaryTree(root_val)
         root = bt.BinaryTree(root_val)
-        left = self.__buildHelper(pre[1:1 + i], inorder[:i])
-        right = self.__buildHelper(pre[1 + i:], inorder[i + 1:])
+        dis = i - il
+        root.left = self.__buildHelper(pre, pl + 1, pl + dis + 1, inorder, il, il + dis)
+        root.right = self.__buildHelper(pre, pl + dis + 1, pr, inorder, il + dis + 1, ir)
         return root
 
 
@@ -44,4 +43,4 @@ if __name__ == '__main__':
     bt = utils.BinaryTree.BinaryTree
 
     res = sol.buildTree(pre_order, in_order)
-    print(res)
+    print(bt.layerOrder(res))
