@@ -78,16 +78,16 @@
 
 | #    |            Question            |                           Solution                           | Category | Note |
 | ---- | :----------------------------: | :----------------------------------------------------------: | :------: | :--: |
-| 3    |        数组中重复的数字        | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/03/DuplicateNumberII.cpp) |          |      |
-| 4    |        二维数组中的查找        | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/04/FindSquareVecNumber.cpp) |          | Easy |
-| 5    |            替换空格            | [C++](https://github.com/Insofan/LeetCode/tree/master/CPP/Offer/05) |          | Easy |
-| 6    |        从尾到头打印链表        | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/06/ReversePrintList.cpp) |          | Easy |
-| 7    |           重建二叉树           | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/07/ConstructBinaryTreeFromPreorderAndInorderTraversal%20.cpp) |          | Hard |
-| 8    |       二叉树的下一个节点       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/08/BinaryTreeNextNode.cpp) |          | Hard |
-| 9    |        用两个栈实现队列        | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/09/QueueUsingStack.cpp) |          | Easy |
-| 10   |          斐波那契数列          | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/10) |          | Easy |
-| 11   |       旋转数组的最小数字       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/11/FindMinnumInRotatedArrOffer.cpp) |          | Easy |
-| 12   |          矩阵中的路径          | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/12/WordSearchOffer.cpp) |          | Hard |
+| 3    |        数组中重复的数字        | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/03/DuplicateNumberII.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/03/DuplicateNumII.py) |          |      |
+| 4    |        二维数组中的查找        | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/04/FindSquareVecNumber.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/04/SearchNum.py) |          | Easy |
+| 5    |            替换空格            | [C++](https://github.com/Insofan/LeetCode/tree/master/CPP/Offer/05) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/05/ReplaceBlank.py) |          | Easy |
+| 6    |        从尾到头打印链表        | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/06/ReversePrintList.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/06/ReversePrintListNode.py) |          | Easy |
+| 7    |           重建二叉树           | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/07/ConstructBinaryTreeFromPreorderAndInorderTraversal%20.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/07/ConstructBinaryTreePreInOrder.py) |          | Hard |
+| 8    |       二叉树的下一个节点       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/08/BinaryTreeNextNode.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/08/NextNodeInorder.py) |          | Hard |
+| 9    |        用两个栈实现队列        | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/09/QueueUsingStack.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/09/QueueUsingStack.py) |          | Easy |
+| 10   |          斐波那契数列          | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/10) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/10/Fibonacci.py) |          | Easy |
+| 11   |       旋转数组的最小数字       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/11/FindMinnumInRotatedArrOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/11/RotateMinNum.py) |          | Easy |
+| 12   |          矩阵中的路径          | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/12/WordSearchOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/12/WordSearch.py) |          | Hard |
 | 13   |        机器人的运动范围        |                                                              |          | Hard |
 | 14   |             剪绳子             | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/14/CuttingRangeOffer.cpp) |          | Hard |
 | 15   |        二进制中1的个数         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/15/BitOneCount.cpp) |          | Easy |
