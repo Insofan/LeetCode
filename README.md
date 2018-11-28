@@ -88,7 +88,7 @@
 | 10   |          斐波那契数列          | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/10) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/10/Fibonacci.py) |          | Easy |
 | 11   |       旋转数组的最小数字       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/11/FindMinnumInRotatedArrOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/11/RotateMinNum.py) |          | Easy |
 | 12   |          矩阵中的路径          | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/12/WordSearchOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/12/WordSearch.py) |          | Hard |
-| 13   |        机器人的运动范围        |                                                              |          | Hard |
+| 13   |        机器人的运动范围        | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/13/RobotPath.cpp) |          | Hard |
 | 14   |             剪绳子             | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/14/CuttingRangeOffer.cpp) |          | Hard |
 | 15   |        二进制中1的个数         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/15/BitOneCount.cpp) |          | Easy |
 | 16   |         数值的整数次方         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/16/PowOffer.cpp) |          | Easy |

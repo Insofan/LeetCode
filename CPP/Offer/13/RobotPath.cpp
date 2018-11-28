@@ -62,7 +62,7 @@ private:
 
 int main() {
     Solution solution;
-    cout << solution.moveCount(4, 10, 101) << endl;
+    cout << solution.moveCount(5, 10, 101) << endl;
 
     return 0;
 }
