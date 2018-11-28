@@ -93,8 +93,8 @@
 | 15   |        二进制中1的个数         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/15/BitOneCount.cpp) |          | Easy |
 | 16   |         数值的整数次方         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/16/PowOffer.cpp) |          | Easy |
 | 17   |       打印从1到最大n位数       |                                                              |          | Hard |
-| 18   |         删除链表的节点         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/18/RemoveListNodeOffer.cpp) |          |      |
-| 19   |         正则表达式匹配         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/19/RegularExpressionMatchingOffer.cpp) |          |      |
+| 18   |         删除链表的节点         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/18/RemoveListNodeOffer.cpp) |          | Easy |
+| 19   |         正则表达式匹配         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/19/RegularExpressionMatchingOffer.cpp) |          | Hard |
 | 20   |        表示数值的字符串        |                                                              |          |      |
 | 21   | 调整数组顺序使奇数位于偶数前面 |                                                              |          |      |
 | 22   |      链表中倒数第k个节点       |                                                              |          |      |
