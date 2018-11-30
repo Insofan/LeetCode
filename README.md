@@ -92,7 +92,7 @@
 | 14   |             剪绳子             | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/14/CuttingRangeOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/14/CutRope.py) |          | Hard |
 | 15   |        二进制中1的个数         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/15/BitOneCount.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/15/BitCount.py) |          | Easy |
 | 16   |         数值的整数次方         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/16/PowOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/16/Pow.py) |          | Easy |
-| 17   |       打印从1到最大n位数       |                                                              |          | Hard |
+| 17   |       打印从1到最大n位数       | [C++](https://github.com/Insofan/LeetCode/tree/master/CPP/Offer/17) |          | Hard |
 | 18   |         删除链表的节点         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/18/RemoveListNodeOffer.cpp) |          | Easy |
 | 19   |         正则表达式匹配         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/19/RegularExpressionMatchingOffer.cpp) |          | Hard |
 | 20   |        表示数值的字符串        |                                                              |          |      |
