@@ -93,9 +93,9 @@
 | 15   |        二进制中1的个数         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/15/BitOneCount.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/15/BitCount.py) |          | Easy |
 | 16   |         数值的整数次方         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/16/PowOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/16/Pow.py) |          | Easy |
 | 17   |       打印从1到最大n位数       | [C++](https://github.com/Insofan/LeetCode/tree/master/CPP/Offer/17) |          | Hard |
-| 18   |         删除链表的节点         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/18/RemoveListNodeOffer.cpp) |          | Easy |
-| 19   |         正则表达式匹配         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/19/RegularExpressionMatchingOffer.cpp) |          | Hard |
-| 20   |        表示数值的字符串        |                                                              |          |      |
+| 18   |         删除链表的节点         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/18/RemoveListNodeOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/18/DeleteNode.py) |          | Easy |
+| 19   |         正则表达式匹配         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/19/RegularExpressionMatchingOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/19/RegExp.py) |          | Hard |
+| 20   |        表示数值的字符串        |                                                              |   DFA    | Hard |
 | 21   | 调整数组顺序使奇数位于偶数前面 |                                                              |          |      |
 | 22   |      链表中倒数第k个节点       |                                                              |          |      |
 | 23   |       链表中环的入口节点       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/23/RecycleLinkListOffer.cpp) |          |      |
@@ -104,7 +104,7 @@
 | 26   |           树的子结构           | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/26/HasSubtree.cpp) |          |      |
 | 27   |          二叉树的镜像          | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/27/MirrorBinaryTree.cpp) |          |      |
 | 28   |          对称的二叉树          | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/28/SymmetricTree.cpp) |          |      |
-| 29   |         顺时针打印矩阵         |                                                              |          |      |
+| 29   |         顺时针打印矩阵         |                           [C++]()                            |          |      |
 | 30   |        包含min函数的栈         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/30/MinStackOffer.cpp) |          |      |
 | 31   |       栈的压入,弹出序列        | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/31/StackPushPopOffer.cpp) |          |      |
 | 32   |       从上到下打印二叉树       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/32/LayerTraverseOffer.cpp) |          |      |
