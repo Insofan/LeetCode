@@ -188,3 +188,5 @@ add_executable(MergeKSortedLists4 ListNode/23/MergeKSortedLists4.cpp)
 add_executable(RobotPath1231 Offer/13/RobotPath.cpp)
 
 add_executable(PrintN Offer/17/PrintN.cpp)
+add_executable(AdjustArr Offer/21/AdjustArr.cpp)
+add_executable(ReverseKthNode Offer/22/ReverseKthNode.cpp)
