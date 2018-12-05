@@ -27,5 +27,5 @@ def printListNode(node):
     while (node):
         print(node.val, end=' -> ')
         node = node.next
-    print('\n')
+    print()
 
