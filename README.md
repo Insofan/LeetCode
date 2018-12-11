@@ -102,10 +102,10 @@
 | 24   |            反转链表            | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/24/ReverseListOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/24/ReverseList.py) |          | Easy |
 | 25   |       合并两个排序的链表       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/25/MergeTwoSortedListOffer.cpp) [Python](https://github.com/Insofan/LeetCode/tree/master/Python3/Offer/25) |          | Easy |
 | 26   |           树的子结构           | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/26/HasSubtree.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/26/SubTree.py) |          | Easy |
-| 27   |          二叉树的镜像          | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/27/MirrorBinaryTree.cpp) |          | Easy |
-| 28   |          对称的二叉树          | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/28/SymmetricTree.cpp) |          |      |
-| 29   |         顺时针打印矩阵         |                           [C++]()                            |          |      |
-| 30   |        包含min函数的栈         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/30/MinStackOffer.cpp) |          |      |
+| 27   |          二叉树的镜像          | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/27/MirrorBinaryTree.cpp) [Python](https://github.com/Insofan/LeetCode/tree/master/Python3/Offer/27) |          | Easy |
+| 28   |          对称的二叉树          | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/28/SymmetricTree.cpp) |          | Easy |
+| 29   |         顺时针打印矩阵         | [C++]() [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/29/PrintMatrix.py) |          | Hard |
+| 30   |        包含min函数的栈         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/30/MinStackOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/30/MinStack.py) |          | Easy |
 | 31   |       栈的压入,弹出序列        | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/31/StackPushPopOffer.cpp) |          |      |
 | 32   |       从上到下打印二叉树       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/32/LayerTraverseOffer.cpp) |          |      |
 | 33   |    二叉搜索树的后序遍历序列    | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/33/PostOrderBSTOffer.cpp) |          |      |
