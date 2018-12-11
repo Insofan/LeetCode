@@ -96,13 +96,13 @@
 | 18   |         删除链表的节点         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/18/RemoveListNodeOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/18/DeleteNode.py) |          | Easy |
 | 19   |         正则表达式匹配         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/19/RegularExpressionMatchingOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/19/RegExp.py) |          | Hard |
 | 20   |        表示数值的字符串        |                                                              |   DFA    | Hard |
-| 21   | 调整数组顺序使奇数位于偶数前面 |                                                              |          |      |
-| 22   |      链表中倒数第k个节点       |                                                              |          |      |
-| 23   |       链表中环的入口节点       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/23/RecycleLinkListOffer.cpp) |          |      |
-| 24   |            反转链表            | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/24/ReverseListOffer.cpp) |          |      |
-| 25   |       合并两个排序的链表       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/25/MergeTwoSortedListOffer.cpp) |          |      |
-| 26   |           树的子结构           | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/26/HasSubtree.cpp) |          |      |
-| 27   |          二叉树的镜像          | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/27/MirrorBinaryTree.cpp) |          |      |
+| 21   | 调整数组顺序使奇数位于偶数前面 | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/21/AdjustArr.cpp) |          |      |
+| 22   |      链表中倒数第k个节点       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/22/ReverseKthNode.cpp) |          |      |
+| 23   |       链表中环的入口节点       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/23/RecycleLinkListOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/23/CycleLinkedList.py) |          | Easy |
+| 24   |            反转链表            | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/24/ReverseListOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/24/ReverseList.py) |          | Easy |
+| 25   |       合并两个排序的链表       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/25/MergeTwoSortedListOffer.cpp) [Python](https://github.com/Insofan/LeetCode/tree/master/Python3/Offer/25) |          | Easy |
+| 26   |           树的子结构           | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/26/HasSubtree.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/26/SubTree.py) |          | Easy |
+| 27   |          二叉树的镜像          | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/27/MirrorBinaryTree.cpp) |          | Easy |
 | 28   |          对称的二叉树          | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/28/SymmetricTree.cpp) |          |      |
 | 29   |         顺时针打印矩阵         |                           [C++]()                            |          |      |
 | 30   |        包含min函数的栈         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/30/MinStackOffer.cpp) |          |      |
