@@ -37,7 +37,7 @@ void preOrderTraverse(TreeNode *root) {
 }
 
 int main() {
-
+    cout << 200000310 % 256 << endl;
         TreeNode a('a');
         TreeNode b('b');
         TreeNode c('c');

@@ -110,5 +110,5 @@
 | 32   |       从上到下打印二叉树       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/32/LayerTraverseOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/32/LayerOrderBT.py) |          | Easy |
 | 33   |    二叉搜索树的后序遍历序列    | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/33/PostOrderBSTOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/33/BSTPostOrder.py) |          | Hard |
 | 34   |    二叉树中和为某一值的路径    | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/34/PathNumOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/34/PathSum.py) |          | Easy |
-| 35   |         复杂链表的复制         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/35/CopyRandomPointListOffer.cpp) |          | Hard |
+| 35   |         复杂链表的复制         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/35/CopyRandomPointListOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer) |          | Hard |
 | 36   |      二叉搜索树与双向链表      | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/36/ConvertBSTToTwoPointSortedListOffer.cpp) |          |      |

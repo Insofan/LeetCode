@@ -6,23 +6,48 @@
 # @File    : CopyRandomPointList.py
 # @Software: PyCharm
 class RandomListNode(object):
-    def __init__(self, val, p = None, random = None):
-        self.label = val
+    def __init__(self, label, p=None, random=None):
+        self.label = label
         self.next = p
         self.random = random
 
+
 class Solution:
+    # def copyRandList(self, head):
+    #     dic = dict()
+    #     m = n = head
+    #     while m:
+    #         dic[m] = RandomListNode(m.label)
+    #         m = m.next
+    #     while n:
+    #         dic[n].next = dic.get(n.next)
+    #         dic[n].random = dic.get(n.random)
+    #         n = n.next
+    #     return dic.get(head)
     def copyRandList(self, head):
+        arr = []
         dic = dict()
-        m = n = head
-        while m:
-            dic[m] = RandomListNode(m.label)
-            m = m.next
-        while n:
-            dic[n].next = dic.get(n.next)
-            dic[n].random = dic.get(n.random)
-            n = n.next
-        return dic.get(head)
+        ptr = head
+        i = 0
+        while ptr:
+            arr.append(RandomListNode(ptr.label))
+            dic[ptr] = i
+            ptr = ptr.next
+            i+=1
+
+        arr.append(None)
+        ptr = head
+        i = 0
+        while ptr:
+            arr[i].next = arr[i+1]
+            if (ptr.random):
+                index = dic.get(ptr.random)
+                arr[i].random = arr[index]
+            ptr = ptr.next
+            i+=1
+        return arr[0]
+
+
 if __name__ == '__main__':
     a = RandomListNode(1)
     b = RandomListNode(3)
