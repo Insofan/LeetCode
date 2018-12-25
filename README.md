@@ -112,8 +112,14 @@
 | 34   |    二叉树中和为某一值的路径    | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/34/PathNumOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/34/PathSum.py) |          | Easy |
 | 35   |         复杂链表的复制         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/35/CopyRandomPointListOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer) |          | Hard |
 | 36   |      二叉搜索树与双向链表      | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/36/ConvertBSTToTwoPointSortedListOffer.cpp) |          | Hard |
-| 37   |          序列化二叉树          | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/37/SerDecBinaryTreeOffer.cpp) |          | Hard |
-| 38   |          字符串的排列          | [C++](https://github.com/Insofan/LeetCode/tree/master/CPP/Offer/38) |          |      |
-| 39   |  数组中出现次数超过一半的数字  |                                                              |          |      |
-| 40   |          最小的k个数           | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/40/TopKElemOffer.cpp) |          |      |
-|      |                                |                                                              |          |      |
+| 37   |          序列化二叉树          | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/37/SerDecBinaryTreeOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/37/SerDecBt.py) |          | Hard |
+| 38   |          字符串的排列          | [C++](https://github.com/Insofan/LeetCode/tree/master/CPP/Offer/38) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/38/PermutationStr.py) |          | Easy |
+| 39   |  数组中出现次数超过一半的数字  | [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/39/HalfCount.py) |          | Easy |
+| 40   |          最小的k个数           | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/40/TopKElemOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/40/MinKNum.py) |          | Easy |
+| 41   |        数据流中的中位数        |                                                              |          |      |
+| 42   |       连续字数组的最大和       |                                                              |          |      |
+| 43   |      1~n整数中出现1的次数      |                                                              |          |      |
+| 44   |     数字序列中某一位的数字     |                                                              |          |      |
+| 45   |      把数组拍成最小的数字      |                                                              |          |      |
+| 46   |       把数字翻译成字符串       |                                                              |          |      |
+| 47   |         礼物的最大价值         |                                                              |          |      |
