@@ -8,19 +8,74 @@
 
 import heapq
 
-class Solution:
-    def midNumInStrea(self, arr):
-        minHeap = []
-        maxHeap = []
 
-        return None
+class MedianFinder:
+
+    def __init__(self):
+        """
+        initialize your data structure here.
+        """
+        self.leftQ = []
+        # python 不支持最大堆, 需要将 val的相反数push进去, 从最大堆取的时候也取相反数
+        self.rightQ = []
+
+    def addNum(self, num):
+        """
+        :type num: int
+        :rtype: void
+        """
+        if (len(self.rightQ) == 0):
+            heapq.heappush(self.rightQ, -num)
+        elif (len(self.rightQ) > len(self.leftQ)):
+            if (num < -self.rightQ[0]):
+                heapq.heappush(self.leftQ, -self.rightQ[0])
+                # 需要用和这个 pop 而不是直接 self.rightQ.pop()
+                heapq.heappop(self.rightQ)
+                heapq.heappush(self.rightQ, -num)
+            else:
+                heapq.heappush(self.leftQ, num)
+        elif (len(self.leftQ) > len(self.rightQ)):
+            if (num < self.leftQ[0]):
+                heapq.heappush(self.rightQ, -num)
+            else:
+                heapq.heappush(self.rightQ, -self.leftQ[0])
+                heapq.heappop(self.leftQ)
+                heapq.heappush(self.leftQ, num)
+        else:
+            if (num < -self.rightQ[0]):
+                heapq.heappush(self.rightQ, -num)
+            else:
+                heapq.heappush(self.leftQ, num)
+
+    def findMedian(self):
+        """
+        :rtype: float
+        """
+        size = len(self.leftQ) + len(self.rightQ)
+        if (size % 2 == 0):
+            return (self.leftQ[0] - self.rightQ[0]) / 2.0
+        else:
+            if len(self.leftQ) > len(self.rightQ):
+                return self.leftQ[0]
+            else:
+                return -self.rightQ[0]
+
 
 if __name__ == '__main__':
     print("Hello world!")
-    arr1 = [1, 2, 3, 4, 5, 6]
-    arr2 = [1, 2, 3, 4, 6]
-    arr3 = [1, 2, 3, 4, 5, 6, 7, 8]
-    sol = Solution()
-    print("arr1 mid: ",sol.midNumInStrea(arr1))
-    print("arr2 mid: ",sol.midNumInStrea(arr2))
-    print("arr3 mid: ",sol.midNumInStrea(arr3))
+    med = MedianFinder()
+    med.addNum(1)
+    # 1
+    print("arr1 mid: ",med.findMedian())
+    med.addNum(2)
+    # 1.5
+    print("arr2 mid: ",med.findMedian())
+    med.addNum(3)
+    # 2
+    print("arr3 mid: ",med.findMedian())
+    med.addNum(4)
+    # 2.5
+    print("arr4 mid: ", med.findMedian())
+    med.addNum(5)
+    # 3
+    print("arr5 mid: ", med.findMedian())
