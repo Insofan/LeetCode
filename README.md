@@ -96,8 +96,8 @@
 | 18   |         删除链表的节点         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/18/RemoveListNodeOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/18/DeleteNode.py) |          | Easy |
 | 19   |         正则表达式匹配         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/19/RegularExpressionMatchingOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/19/RegExp.py) |          | Hard |
 | 20   |        表示数值的字符串        |                                                              |   DFA    | Hard |
-| 21   | 调整数组顺序使奇数位于偶数前面 | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/21/AdjustArr.cpp) |          |      |
-| 22   |      链表中倒数第k个节点       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/22/ReverseKthNode.cpp) |          |      |
+| 21   | 调整数组顺序使奇数位于偶数前面 | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/21/AdjustArr.cpp) |          | Easy |
+| 22   |      链表中倒数第k个节点       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/22/ReverseKthNode.cpp) |          | Easy |
 | 23   |       链表中环的入口节点       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/23/RecycleLinkListOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/23/CycleLinkedList.py) |          | Easy |
 | 24   |            反转链表            | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/24/ReverseListOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/24/ReverseList.py) |          | Easy |
 | 25   |       合并两个排序的链表       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/25/MergeTwoSortedListOffer.cpp) [Python](https://github.com/Insofan/LeetCode/tree/master/Python3/Offer/25) |          | Easy |
@@ -116,10 +116,10 @@
 | 38   |          字符串的排列          | [C++](https://github.com/Insofan/LeetCode/tree/master/CPP/Offer/38) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/38/PermutationStr.py) |          | Easy |
 | 39   |  数组中出现次数超过一半的数字  | [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/39/HalfCount.py) |          | Easy |
 | 40   |          最小的k个数           | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/40/TopKElemOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/40/MinKNum.py) |          | Easy |
-| 41   |        数据流中的中位数        |                                                              |          |      |
-| 42   |       连续字数组的最大和       |                                                              |          |      |
-| 43   |      1~n整数中出现1的次数      |                                                              |          |      |
-| 44   |     数字序列中某一位的数字     |                                                              |          |      |
-| 45   |      把数组拍成最小的数字      |                                                              |          |      |
-| 46   |       把数字翻译成字符串       |                                                              |          |      |
-| 47   |         礼物的最大价值         |                                                              |          |      |
+| 41   |        数据流中的中位数        | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/41/FindMedianFromDataStreamOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/41/MidNumInStream.py) |          | Hard |
+| 42   |       连续字数组的最大和       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/42/MaxSubArraySumOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/42/MaxSubarray.py) |          | Easy |
+| 43   |      1~n整数中出现1的次数      | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/43/NumberOfDigitOneOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/43/NumOfDigitOne.py) |          | Hard |
+| 44   |     数字序列中某一位的数字     | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/44/NthDigitOffer.cpp) |          |      |
+| 45   |      把数组排成最小的数字      | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/45/MinNumOffer.cpp) |          |      |
+| 46   |       把数字翻译成字符串       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/46/DecodeWaysOffer.cpp) |          |      |
+| 47   |         礼物的最大价值         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/47/MaxnumPathSumOffer.cpp) |          |      |
