@@ -122,4 +122,4 @@
 | 44   |     数字序列中某一位的数字     | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/44/NthDigitOffer.cpp) |          |      |
 | 45   |      把数组排成最小的数字      | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/45/MinNumOffer.cpp) |          |      |
 | 46   |       把数字翻译成字符串       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/46/DecodeWaysOffer.cpp) |          |      |
-| 47   |         礼物的最大价值         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/47/MaxnumPathSumOffer.cpp) |          |      |
+| 47   |         礼物的最大价值         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/47/MaxnumPathSumOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/45/RangeMinNum.py) |          |      |
