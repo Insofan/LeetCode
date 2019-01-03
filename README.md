@@ -119,8 +119,12 @@
 | 41   |        数据流中的中位数        | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/41/FindMedianFromDataStreamOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/41/MidNumInStream.py) |          | Hard |
 | 42   |       连续字数组的最大和       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/42/MaxSubArraySumOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/42/MaxSubarray.py) |          | Easy |
 | 43   |      1~n整数中出现1的次数      | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/43/NumberOfDigitOneOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/43/NumOfDigitOne.py) |          | Hard |
-| 44   |     数字序列中某一位的数字     | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/44/NthDigitOffer.cpp) |          |      |
-| 45   |      把数组排成最小的数字      | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/45/MinNumOffer.cpp) |          |      |
-| 46   |       把数字翻译成字符串       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/46/DecodeWaysOffer.cpp) |          |      |
-| 47   |         礼物的最大价值         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/47/MaxnumPathSumOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/45/RangeMinNum.py) |          |      |
+| 44   |     数字序列中某一位的数字     | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/44/NthDigitOffer.cpp) |          | Hard |
+| 45   |      把数组排成最小的数字      | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/45/MinNumOffer.cpp) |          | Hard |
+| 46   |       把数字翻译成字符串       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/46/DecodeWaysOffer.cpp) |          | Hard |
+| 47   |         礼物的最大价值         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/47/MaxnumPathSumOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/45/RangeMinNum.py) |          | Easy |
+| 48   |   最长不含重复字符的子字符串   |                                                              |          | Hard |
+| 49   |              丑数              |                                                              |          | Easy |
+| 50   |         数组中的逆序对         |                                                              |          |      |
+| 51   |    两个链表的第一个公共节点    |                                                              |          |      |
 

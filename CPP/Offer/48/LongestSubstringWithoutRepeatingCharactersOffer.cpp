@@ -14,14 +14,14 @@ public:
         int res = 0;
         set<char> noRepeatSet;
 
-        for (int i = 0; i < str.length(); i++) {
+        for (int i = 0, j = 0; i < str.length();) {
             if (noRepeatSet.count(str[i]) == 0) {
-                noRepeatSet.insert(str[i]);
-                int size = noRepeatSet.size();
-                res = max(res, size);
+                noRepeatSet.insert(str[i++]);
             } else {
-                noRepeatSet.erase(str[i]);
+                noRepeatSet.erase(str[j++]);
             }
+            int size = noRepeatSet.size();
+            res = max(res, size);
         }
         return res;
     }
@@ -33,6 +33,7 @@ int main() {
     string   a2 = "bbbbb";
     string   a3 = "an++--viaj";
     string   a4 = "abcdefghijklmn";
+    string   a5 = "1112234";
 
     Solution solution;
     cout << solution.longestNoRepeatingStr(a1) << endl;
@@ -40,6 +41,7 @@ int main() {
     cout << solution.longestNoRepeatingStr(a3) << endl;
     cout << a4.length() << endl;
     cout << solution.longestNoRepeatingStr(a4) << endl;
+    cout << solution.longestNoRepeatingStr(a5) << endl;
 
     return 0;
 }
