@@ -123,8 +123,9 @@
 | 45   |      把数组排成最小的数字      | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/45/MinNumOffer.cpp) |          | Hard |
 | 46   |       把数字翻译成字符串       | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/46/DecodeWaysOffer.cpp) |          | Hard |
 | 47   |         礼物的最大价值         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/47/MaxnumPathSumOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/45/RangeMinNum.py) |          | Easy |
-| 48   |   最长不含重复字符的子字符串   |                                                              |          | Hard |
-| 49   |              丑数              |                                                              |          | Easy |
-| 50   |         数组中的逆序对         |                                                              |          |      |
-| 51   |    两个链表的第一个公共节点    |                                                              |          |      |
+| 48   |   最长不含重复字符的子字符串   | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/48/LongestSubstringWithoutRepeatingCharactersOffer.cpp) |          | Hard |
+| 49   |              丑数              | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/49/UglyNumberOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/49/UglyNum.py) |          | Easy |
+|      |      第一个出现一次的字符      | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/50/FirstUniqueCharOffer.cpp) |          | Easy |
+| 51   |         数组中的逆序对         |                                                              |          |      |
+| 52   |    两个链表的第一个公共节点    |                                                              |          |      |
 
