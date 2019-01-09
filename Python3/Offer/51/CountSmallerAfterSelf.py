@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2019/1/7 9:26 AM
 # @Author  : Insomnia
-# @Desc    : TODO
+# @Desc    : 逆序对, 此题Python版本有误, 无法ac
 # @File    : CountSmallerAfterSelf.py
 # @Software: PyCharm
 

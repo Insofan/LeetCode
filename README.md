@@ -126,6 +126,10 @@
 | 48   |   最长不含重复字符的子字符串   | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/48/LongestSubstringWithoutRepeatingCharactersOffer.cpp) |          | Hard |
 | 49   |              丑数              | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/49/UglyNumberOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/49/UglyNum.py) |          | Easy |
 |      |      第一个出现一次的字符      | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/50/FirstUniqueCharOffer.cpp) |          | Easy |
-| 51   |         数组中的逆序对         |                                                              |          |      |
-| 52   |    两个链表的第一个公共节点    |                                                              |          |      |
+| 51   |         数组中的逆序对         |                                                              |          | Hard |
+| 52   |    两个链表的第一个公共节点    | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/52/IntersectionOfTwoLinkedListsOffer.cpp) |          | Easy |
+| 53   |      在排序数组中查找数字      | [C++](https://github.com/Insofan/LeetCode/tree/master/CPP/Offer/53) |          |      |
+| 54   |     二叉搜索树的第K大节点      | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/54/KthSmallestElementInABST.cpp) |          | Easy |
+| 55   |        二叉搜索树的深度        |                                                              |          |      |
+|      |                                |                                                              |          |      |
 
