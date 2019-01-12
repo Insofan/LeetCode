@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2019/1/7 9:26 AM
 # @Author  : Insomnia
-# @Desc    : 逆序对, 此题Python版本有误, 无法ac
+# @Desc    : 逆序对
 # @File    : CountSmallerAfterSelf.py
 # @Software: PyCharm
 
@@ -15,19 +15,19 @@ class BSTNode(object):
 
 
 # 这里python small做参数, 无法使用指针有错误
-def insertBSTNode(root, node, small):
-    if (node.val < root.val):
+def insertBSTNode(root, insertNode, countSmall):
+    if (insertNode.val <= root.val):
         root.small += 1
         if root.left:
-            insertBSTNode(root.left, node, small)
+            insertBSTNode(root.left, insertNode, countSmall)
         else:
-            root.left = node
+            root.left = insertNode
     else:
-        small += root.small + 1
+        countSmall[0] += root.small + 1
         if root.right:
-            insertBSTNode(root.right, node, small)
+            insertBSTNode(root.right, insertNode, countSmall)
         else:
-            root.right = node
+            root.right = insertNode
 
 class Solution:
     def countSmaller(self, vec):
@@ -35,15 +35,16 @@ class Solution:
             return 0
         res = [0] * len(vec)
         nodeVec = []
-        reversed(vec)
+        vec.reverse()
         for val in vec:
             nodeVec.append(BSTNode(val))
-        res.append(0)
 
         for i in  range(1, len(vec)):
-            res[i] = 0
-            insertBSTNode(nodeVec[0], nodeVec[i],res[i])
-        reversed(res)
+            small = []
+            small.append(0)
+            insertBSTNode(nodeVec[0], nodeVec[i],small)
+            res[i] = small[0]
+        res.reverse()
         return res
 
 

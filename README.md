@@ -125,11 +125,23 @@
 | 47   |         礼物的最大价值         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/47/MaxnumPathSumOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/45/RangeMinNum.py) |          | Easy |
 | 48   |   最长不含重复字符的子字符串   | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/48/LongestSubstringWithoutRepeatingCharactersOffer.cpp) |          | Hard |
 | 49   |              丑数              | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/49/UglyNumberOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/49/UglyNum.py) |          | Easy |
-|      |      第一个出现一次的字符      | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/50/FirstUniqueCharOffer.cpp) |          | Easy |
-| 51   |         数组中的逆序对         |                                                              |          | Hard |
-| 52   |    两个链表的第一个公共节点    | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/52/IntersectionOfTwoLinkedListsOffer.cpp) |          | Easy |
-| 53   |      在排序数组中查找数字      | [C++](https://github.com/Insofan/LeetCode/tree/master/CPP/Offer/53) |          |      |
-| 54   |     二叉搜索树的第K大节点      | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/54/KthSmallestElementInABST.cpp) |          | Easy |
-| 55   |        二叉搜索树的深度        |                                                              |          |      |
-|      |                                |                                                              |          |      |
+| 50   |      第一个出现一次的字符      | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/50/FirstUniqueCharOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/50/FirstUnqueChar.py) |          | Easy |
+| 51   |         数组中的逆序对         | [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/51/CountSmallerAfterSelf.py) |          | Hard |
+| 52   |    两个链表的第一个公共节点    | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/52/IntersectionOfTwoLinkedListsOffer.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/52/FirstInjectNode.py) |          | Easy |
+| 53   |      在排序数组中查找数字      | [C++](https://github.com/Insofan/LeetCode/tree/master/CPP/Offer/53) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/53/FindCountInSortArr.py) |          | Easy |
+| 54   |     二叉搜索树的第K大节点      | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/54/KthSmallestElementInABST.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/54/KthNodeInBST.py) |          | Easy |
+| 55   |        二叉搜索树的深度        | [C++](https://github.com/Insofan/LeetCode/tree/master/CPP/Offer/55) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/55/DepthOfBT.py) |          | Easy |
+| 56   |      数组中数字出现的次数      |                                                              |          | Hard |
+| 57   |          和为s的数字           |                                                              |          |      |
+| 58   |           翻转字符串           |                                                              |          |      |
+| 59   |          队列的最大值          |                                                              |          |      |
+| 60   |         n个骰子的点数          |                                                              |          |      |
+| 61   |         扑克牌中的顺子         |                                                              |          |      |
+| 62   |      圆圈中最后剩下的数字      |                                                              |          |      |
+| 63   |              股票              |                                                              |          |      |
+| 64   |           求1+2+...n           |                                                              |          |      |
+| 65   |        不用乘除法做加法        |                                                              |          |      |
+| 66   |          构建乘积数组          |                                                              |          |      |
+| 67   |         把字符串转换成         |                                                              |          |      |
+| 68   |       二叉树最小公共祖先       |                                                              |          |      |
 
