@@ -132,13 +132,13 @@
 | 54   |     二叉搜索树的第K大节点      | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/54/KthSmallestElementInABST.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/54/KthNodeInBST.py) |          | Easy |
 | 55   |        二叉搜索树的深度        | [C++](https://github.com/Insofan/LeetCode/tree/master/CPP/Offer/55) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/55/DepthOfBT.py) |          | Easy |
 | 56   |      数组中数字出现的次数      | [C++](https://github.com/Insofan/LeetCode/tree/master/CPP/Offer/56) [Python](https://github.com/Insofan/LeetCode/tree/master/Python3/Offer/56) |          | Hard |
-| 57   |          和为s的数字           | [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/57/SumEqS.py) |          |      |
-| 58   |           翻转字符串           | [C++](https://github.com/Insofan/LeetCode/tree/master/CPP/Offer/58) [Python](https://github.com/Insofan/LeetCode/tree/master/Python3/Offer/58) |          |      |
-| 59   |          队列的最大值          | [C++](https://github.com/Insofan/LeetCode/tree/master/CPP/Offer/59) |          |      |
-| 60   |         n个骰子的点数          | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/60/DiceSumOffer.cpp) |          |      |
-| 61   |         扑克牌中的顺子         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/61/StraightPokerOffer.cpp) |          |      |
-| 62   |      圆圈中最后剩下的数字      | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/62/LastInCircleOffer.cpp) |          |      |
-| 63   |              股票              | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/63/BestTimeToBuyAndSellStockOffer.cpp) |          |      |
+| 57   |          和为s的数字           | [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/57/SumEqS.py) |          | Easy |
+| 58   |           翻转字符串           | [C++](https://github.com/Insofan/LeetCode/tree/master/CPP/Offer/58) [Python](https://github.com/Insofan/LeetCode/tree/master/Python3/Offer/58) |          | Easy |
+| 59   |          队列的最大值          | [C++](https://github.com/Insofan/LeetCode/tree/master/CPP/Offer/59) |          | Hard |
+| 60   |         n个骰子的点数          | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/60/DiceSumOffer.cpp) |          | Hard |
+| 61   |         扑克牌中的顺子         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/61/StraightPokerOffer.cpp) |          | Hard |
+| 62   |      圆圈中最后剩下的数字      | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/62/LastInCircleOffer.cpp) |          | Easy |
+| 63   |              股票              | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/63/BestTimeToBuyAndSellStockOffer.cpp) |          | Easy |
 | 64   |           求1+2+...n           | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/64/NSumOffer.cpp) |          |      |
 | 65   |        不用乘除法做加法        | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/65/IntegerSumOffer.cpp) |          |      |
 | 66   |          构建乘积数组          | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/66/ProductOfArrayExceptSelfOffer.cpp) |          |      |
