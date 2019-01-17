@@ -11,7 +11,7 @@ import (
 	"fmt"
 )
 import (
-	"../Util"
+	"../../Util"
 )
 
 func maxNum(x, y int) int {

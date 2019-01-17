@@ -2,7 +2,7 @@ package problem206
 
 import (
 	"testing"
-	"../Util"
+	"../../Util"
 	"fmt"
 )
 

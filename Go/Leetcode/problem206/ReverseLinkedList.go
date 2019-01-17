@@ -1,7 +1,7 @@
 package problem206
 
 import (
-	"../Util"
+	"../../Util"
 )
 
 func ReverseList(head *util.ListNode) *util.ListNode{

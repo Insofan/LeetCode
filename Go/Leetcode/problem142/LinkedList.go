@@ -9,7 +9,7 @@
 package main
 
 import (
-	"../Util"
+	"../../Util"
 	"fmt"
 )
 
