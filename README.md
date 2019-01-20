@@ -139,9 +139,9 @@
 | 61   |         扑克牌中的顺子         | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/61/StraightPokerOffer.cpp) |          | Hard |
 | 62   |      圆圈中最后剩下的数字      | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/62/LastInCircleOffer.cpp) |          | Easy |
 | 63   |              股票              | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/63/BestTimeToBuyAndSellStockOffer.cpp) |          | Easy |
-| 64   |           求1+2+...n           | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/64/NSumOffer.cpp) |          |      |
-| 65   |        不用乘除法做加法        | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/65/IntegerSumOffer.cpp) |          |      |
-| 66   |          构建乘积数组          | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/66/ProductOfArrayExceptSelfOffer.cpp) |          |      |
-| 67   |         把字符串转换成         |                                                              |          |      |
+| 64   |           求1+2+...n           | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/64/NSumOffer.cpp) |          | Hard |
+| 65   |        不用乘除法做加法        | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/65/IntegerSumOffer.cpp) |          | Hard |
+| 66   |          构建乘积数组          | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/66/ProductOfArrayExceptSelfOffer.cpp) |          | Easy |
+| 67   |       把字符串转换成整数       |                                                              |          |      |
 | 68   |       二叉树最小公共祖先       | [C++](https://github.com/Insofan/LeetCode/tree/master/CPP/Offer/68) |          |      |
 
