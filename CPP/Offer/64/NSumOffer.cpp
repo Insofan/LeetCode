@@ -11,9 +11,15 @@ using namespace std;
 class Solution {
 public:
     int sumSolution(int n) {
-        int ans = n;
-        ans && (ans += sumSolution(n - 1));
-        return ans;
+        /*
+         int ans = n;
+         ans && (ans += sumsolution(n - 1));
+         return ans;
+         */
+
+        int sum = n;
+        bool next = (sum > 0) && ((sum += sumSolution(n - 1)) > 0);
+        return sum;
     }
 };
 
