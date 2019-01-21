@@ -71,7 +71,7 @@ func GetTarNode(root *TreeNode, tar int) *TreeNode {
 	return GetTarNode(root.Right, tar)
 }
 
-func LayerOrder(root *TreeNode) [][]int {
+func LevelOrder(root *TreeNode) [][]int {
 
 	res := [][]int{}
 	var dfs func(*TreeNode, int)

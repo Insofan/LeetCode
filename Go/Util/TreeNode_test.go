@@ -13,10 +13,10 @@ import (
 	"testing"
 )
 
-func TestArr2TreeNode(t *testing.T) {
+func TestLevelOrder(t *testing.T) {
 	arr := []int{1, 2, 3, 4, 5, 6, 7}
 	root := Arr2TreeNode(arr)
-	res := LayerOrder(root)
+	res := LevelOrder(root)
 	want := [][]int{{1}, {2, 3}, {4, 5, 6, 7} }
 
 	if len(res) == 0 {
