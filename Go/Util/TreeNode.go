@@ -71,5 +71,46 @@ func GetTarNode(root *TreeNode, tar int) *TreeNode {
 	return GetTarNode(root.Right, tar)
 }
 
+func LayerOrder(root *TreeNode) [][]int {
 
+	res := [][]int{}
+	var dfs func(*TreeNode, int)
 
+	dfs = func(root *TreeNode, level int) {
+		if root == nil {
+			return
+		}
+
+		// 出现了新的 level
+		if  level >= len(res)   {
+			res = append(res, []int{})
+		}
+		res[level] = append(res[level], root.Val)
+
+		dfs(root.Left, level+1)
+		dfs(root.Right, level+1)
+	}
+
+	dfs(root, 0)
+
+	return res
+}
+
+/**
+
+func layerOrderHelper(node *TreeNode, level int, res [][]int) {
+	if node == nil {
+		return
+	}
+
+	if len(res) >= level {
+		res = append(res, []int{})
+	}
+
+	res[level] = append(res[level], node.Val)
+
+	layerOrderHelper(node.Left, level+ 1, res)
+	layerOrderHelper(node.Right, level+ 1, res)
+}
+
+ */
