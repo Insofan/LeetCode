@@ -131,7 +131,7 @@
 | 53   |      在排序数组中查找数字      | [C++](https://github.com/Insofan/LeetCode/tree/master/CPP/Offer/53) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/53/FindCountInSortArr.py) |          | Easy |
 | 54   |     二叉搜索树的第K大节点      | [C++](https://github.com/Insofan/LeetCode/blob/master/CPP/Offer/54/KthSmallestElementInABST.cpp) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/54/KthNodeInBST.py) |          | Easy |
 | 55   |        二叉搜索树的深度        | [C++](https://github.com/Insofan/LeetCode/tree/master/CPP/Offer/55) [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/55/DepthOfBT.py) |          | Easy |
-| 56   |    排序数组中数字出现的次数    | [C++](https://github.com/Insofan/LeetCode/tree/master/CPP/Offer/56) [Python](https://github.com/Insofan/LeetCode/tree/master/Python3/Offer/56) |          | Hard |
+| 56   |      数组中数字出现的次数      | [C++](https://github.com/Insofan/LeetCode/tree/master/CPP/Offer/56) [Python](https://github.com/Insofan/LeetCode/tree/master/Python3/Offer/56) |          | Hard |
 | 57   |          和为s的数字           | [Python](https://github.com/Insofan/LeetCode/blob/master/Python3/Offer/57/SumEqS.py) |          | Easy |
 | 58   |           翻转字符串           | [C++](https://github.com/Insofan/LeetCode/tree/master/CPP/Offer/58) [Python](https://github.com/Insofan/LeetCode/tree/master/Python3/Offer/58) |          | Easy |
 | 59   |          队列的最大值          | [C++](https://github.com/Insofan/LeetCode/tree/master/CPP/Offer/59) [Python](https://github.com/Insofan/LeetCode/tree/master/Python3/Offer/59) |          | Hard |
