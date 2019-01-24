@@ -32,7 +32,7 @@ public:
 
         while (i < str.length() && str[i] >= '0' && str[i] <= '9') {
 
-            if ((base  > INT32_MAX / 10) || ((base == INT32_MAX  / 10 ) && str[i] < '7')) {
+            if ((base  > INT32_MAX / 10) || ((base == INT32_MAX  / 10 ) && str[i] > '7')) {
                if (sign == 1) {
                     return INT32_MAX;
                }
