@@ -1,10 +1,9 @@
-//
-//  MergeSort.go
-//  Go
-//
-//  Created by Inso on 2018/10/8.
-//  Copyright © 2018 Inso. All rights reserved.
-//
+//Package MergeSort
+//MergeSort.go
+//Go
+//Created by Inso on 2018/10/8.
+//Copyright © 2018 Inso. All rights reserved.
+
 package MergeSort
 
 import (
@@ -13,7 +12,7 @@ import (
 
 func mergeSort(vec []int, left, right int) {
 	if left < right {
-		var mid int = (left + right) / 2
+		var mid = (left + right) / 2
 		mergeSort(vec, left, mid)
 		mergeSort(vec, mid+1, right)
 		partition(vec, left, mid, right)

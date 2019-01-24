@@ -1,12 +1,15 @@
-//
+//  Package WhileQuickSort
 //  WhileQuickSort.go
-//  Go 
+//  Go
 //
 //  Created by Inso on 2019/1/17.
 //  Copyright © 2019 Inso. All rights reserved.
 //
 package WhileQuickSort
 
+/*!
+while 快排
+*/
 func WhileQuickSort(arr []int, left, right int) {
 	l := left
 	r := right
@@ -32,4 +35,3 @@ func WhileQuickSort(arr []int, left, right int) {
 		WhileQuickSort(arr, r+1, right)
 	}
 }
-

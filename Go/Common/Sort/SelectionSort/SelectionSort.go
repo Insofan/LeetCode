@@ -1,9 +1,9 @@
 package main
 
 import (
+	"fmt"
 	"math/rand"
 	"time"
-	"fmt"
 )
 
 func randomArr(len, maxNum int) []int {
@@ -18,10 +18,10 @@ func randomArr(len, maxNum int) []int {
 }
 
 func selectionSort(arr []int) {
-	for i, _ := range arr {
+	for i := range arr {
 		key := i
 		for j := i + 1; j < len(arr); j++ {
-			if (arr[j] < arr[key]) {
+			if arr[j] < arr[key] {
 				key = j
 			}
 		}
