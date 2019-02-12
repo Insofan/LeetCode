@@ -26,7 +26,7 @@ private:
 
         tempVec.push_back(vec[i]);
 
-        //全排列
+        //全组合
         res.push_back(tempVec);
 //        if (tempVec.size() == 3) {
 //
@@ -40,6 +40,32 @@ private:
     }
 };
 
+
+class Solution2 {
+public:
+    vector<vector<int>> permutationNum(vector<int> vec) {
+
+        vector<vector<int>> res;
+        helper(0, vec, res);
+        return res;
+    }
+
+private:
+    void helper(int begin,vector<int> &vec, vector<vector<int>> &res) {
+        if (begin >= vec.size()) {
+            res.push_back(vec);
+            return;
+        }
+
+        for (int i = begin; i < vec.size(); i++) {
+            if (i == begin || vec[i] != vec[begin]) {
+                swap(vec[begin], vec[i]);
+                helper(begin + 1, vec, res);
+                swap(vec[begin], vec[i]);
+            }
+        }
+    }
+};
 
 int main() {
     int         a[5]        = {1, 2, 3, 4, 5};
@@ -55,6 +81,17 @@ int main() {
     for (int i = 0; i < res.size(); ++i) {
         for (int j = 0; j < res[i].size(); ++j) {
            cout << res[i][j] << " ";
+        }
+        cout << endl;
+    }
+
+    Solution2 solution2;
+    vec.pop_back();
+    vec.pop_back();
+    vector<vector<int>> res2 = solution2.permutationNum(vec);
+    for (int i = 0; i < res2.size(); ++i) {
+        for (int j = 0; j < res2[i].size(); ++j) {
+           cout << res2[i][j] << " ";
         }
         cout << endl;
     }
