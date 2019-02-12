@@ -26,7 +26,7 @@ public:
 
         while (ptr) {
             nodeVec.push_back(new RandomListNode(ptr->val));
-            nodeMap[ptr->random] = i;
+            nodeMap[ptr] = i;
             ptr = ptr->next;
             i++;
         }
